@@ -326,6 +326,7 @@ header {
     flex-grow: 1; 
     position: relative; 
 }
+
 #characters-page .scene { 
     width: 100%; 
     height: 100%; 
@@ -341,24 +342,38 @@ header {
     top: 0; 
     left: 0; 
     pointer-events: none; /* Ignore clicks on inactive scenes */
+    z-index: 0;
 }
+
+#characters-page .scene::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to right, rgba(10, 10, 20, 0.85) 10%, rgba(10, 10, 20, 0.5) 40%, transparent 60%);
+    z-index: -1;
+}
+
 #characters-page .scene.active { 
     opacity: 1; 
     pointer-events: auto; /* Allow clicks on the active scene */
 }
+
 #characters-page .character-info { 
-    max-width: 45%; 
+    max-width: 50%; 
     text-align: left; 
 }
-#characters-page .character-name { 
+
+#characters-page .character-name {
     font-family: 'Nexa', sans-serif;
-    font-size: 5rem; 
-    font-weight: 900; 
-    text-transform: uppercase; 
-    line-height: 1.1; 
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.1;
     margin: 0;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.9);
+    white-space: normal; /* Allow natural wrapping */
 }
+
 #characters-page .name-separator { 
     height: 6px; 
     width: 400px; 

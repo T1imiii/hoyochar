@@ -280,7 +280,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         currentCharacters.forEach((char, index) => {
             const isActive = index === 0;
-            const nameHTML = char.name.replace(' ', '<br>');
+            const nameHTML = char.name;
             
             const videoButtonHTML = char.demoVideo ? `
                 <button class="watch-demo-btn" data-video-src="${char.demoVideo}">
