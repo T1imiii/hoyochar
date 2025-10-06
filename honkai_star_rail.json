@@ -1,343 +1,344 @@
+
 [
     {
         "name": "MIDEJ",
-        "description": "Character description coming soon.",
+        "description": "A mysterious and powerful warrior, whose origins are as enigmatic as their fighting style. They wield destruction with a calm and calculated demeanor.",
         "image": "images/honkaiStarRail/mainImages/midei_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/midei_side.webp",
         "region": "Destruction"
     },
     {
         "name": "PHAENON",
-        "description": "Character description coming soon.",
+        "description": "A being of pure energy, Phaenon is a manifestation of a dying star. Their attacks are wild and unpredictable, much like a solar flare.",
         "image": "images/honkaiStarRail/mainImages/faenon_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/faenon_side.webp",
         "region": "Destruction"
     },
     {
         "name": "SABER",
-        "description": "Character description coming soon.",
+        "description": "A master swordswoman, Saber's blade is said to be able to cut through dimensions. Her stoic expression hides a passionate and determined heart.",
         "image": "images/honkaiStarRail/mainImages/seiber_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/saber_side.webp",
         "region": "Destruction"
     },
     {
         "name": "YUNLI",
-        "description": "Character description coming soon.",
+        "description": "A graceful and elegant fighter, Yunli commands the power of storms. Her movements are like a dance, beautiful yet deadly.",
         "image": "images/honkaiStarRail/mainImages/unli_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/unli_side.webp",
         "region": "Destruction"
     },
     {
         "name": "JINGLIU",
-        "description": "Character description coming soon.",
+        "description": "Once a legendary sword master, Jingliu is now a fearsome warrior shrouded in ice. Her attacks are relentless and unforgiving, chilling her enemies to the bone.",
         "image": "images/honkaiStarRail/mainImages/zcinlu_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/zcinli_side.webp",
         "region": "Destruction"
     },
     {
         "name": "DAN HENG IMBIBITOR LUNAE",
-        "description": "Character description coming soon.",
+        "description": "The High Elder of the Vidyadhara, Dan Heng wields the power of the celestial waters. His attacks are both beautiful and devastating, capable of washing away his foes.",
         "image": "images/honkaiStarRail/mainImages/dan_hen_poghiratel_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/dan_hen_poghiratel_side.webp",
         "region": "Destruction"
     },
     {
         "name": "BLADE",
-        "description": "Character description coming soon.",
+        "description": "A member of the Stellaron Hunters, Blade is an immortal swordsman who seeks death. His body is a vessel of destruction, and his attacks are fueled by his own life force.",
         "image": "images/honkaiStarRail/mainImages/blade_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/blade_side.webp",
         "region": "Destruction"
     },
     {
         "name": "CLARA",
-        "description": "Character description coming soon.",
+        "description": "A young girl who travels with a powerful robot named Svarog. Clara provides support while Svarog unleashes devastating attacks to protect her.",
         "image": "images/honkaiStarRail/mainImages/klara_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/klara_side.webp",
         "region": "Destruction"
     },
     {
         "name": "FIREFLY",
-        "description": "Character description coming soon.",
+        "description": "A mysterious and cheerful girl in a mech suit. Firefly is a member of the Stellaron Hunters, and her true identity and motives are unknown.",
         "image": "images/honkaiStarRail/mainImages/svetlyachok_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/svetlyachok_side.webp",
         "region": "Destruction"
     },
     {
         "name": "SEELE",
-        "description": "Character description coming soon.",
+        "description": "A spirited and valiant member of Wildfire who grew up in the Underworld of Belobog. She is accustomed to being alone.",
         "image": "images/honkaiStarRail/mainImages/seelle_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/seelle_side.webp",
         "region": "Hunt"
     },
     {
         "name": "YANQING",
-        "description": "Character description coming soon.",
+        "description": "A prodigiously talented swordsman and the lieutenant of the Xianzhou Luofu's Cloud Knights. He is obsessed with swords and is one of the most skilled swordsmen on the Luofu.",
         "image": "images/honkaiStarRail/mainImages/yancin_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/yancin_side.webp",
         "region": "Hunt"
     },
     {
         "name": "TOPAZ & NUMBY",
-        "description": "Character description coming soon.",
+        "description": "Topaz is a senior manager of the Strategic Investment Department in the Interastral Peace Corporation. Her partner, Numby, is a Warp Trotter with a keen sense for treasure.",
         "image": "images/honkaiStarRail/mainImages/topaz_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/topaz_side.webp",
         "region": "Hunt"
     },
     {
         "name": "DOCTOR RATIO",
-        "description": "Character description coming soon.",
+        "description": "A candid and self-centered Intelligentsia Guild member, who often conceals his appearance with a strange plaster sculpture. He firmly believes that intelligence and creativity are not confined to geniuses.",
         "image": "images/honkaiStarRail/mainImages/doctor_racio_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/doctor_racio_side.webp",
         "region": "Hunt"
     },
     {
         "name": "BOOTHILL",
-        "description": "Character description coming soon.",
+        "description": "A cyborg cowboy drifting among the stars. He's an optimistic and unrestrained Ranger who is a member of the Galaxy Rangers.",
         "image": "images/honkaiStarRail/mainImages/boothill_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/boothill_side.webp",
         "region": "Hunt"
     },
     {
         "name": "FEIXIAO",
-        "description": "Character description coming soon.",
+        "description": "A skilled pilot and a member of the Galaxy Rangers. Feixiao is known for their sharp wit and even sharper shooting skills.",
         "image": "images/honkaiStarRail/mainImages/feixiao_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/fei_syao_side.webp",
         "region": "Hunt"
     },
     {
         "name": "ARCHER",
-        "description": "Character description coming soon.",
+        "description": "An unknown archer whose arrows are said to never miss. They are a silent and deadly force on the battlefield.",
         "image": "images/honkaiStarRail/mainImages/archer_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/archer_side.webp",
         "region": "Hunt"
     },
     {
         "name": "HIMEKO",
-        "description": "Character description coming soon.",
+        "description": "An adventurous scientist who encountered and repaired a stranded Astral Express as a child, she now journeys across the universe with it.",
         "image": "images/honkaiStarRail/mainImages/himeko_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/himeko_side.webp",
         "region": "Erudition"
     },
     {
         "name": "JING YUAN",
-        "description": "Character description coming soon.",
+        "description": "One of the seven Arbiter-Generals of the Xianzhou Alliance's Cloud Knights. He is a master tactician and a formidable warrior.",
         "image": "images/honkaiStarRail/mainImages/zcin_uan_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/zcin_uan_side.webp",
         "region": "Erudition"
     },
     {
         "name": "ARGENTI",
-        "description": "Character description coming soon.",
+        "description": "A classic knight of the Knights of Beauty. He is noble, admired, and wanders the cosmos alone, resolutely following the Path of Beauty.",
         "image": "images/honkaiStarRail/mainImages/argenti_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/argenti_side.webp",
         "region": "Erudition"
     },
     {
         "name": "YASHMA",
-        "description": "Character description coming soon.",
+        "description": "A beautiful and enigmatic dancer, Yashma's movements are said to be able to captivate and control the minds of her audience.",
         "image": "images/honkaiStarRail/mainImages/yashma_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/yashma_side.webp",
         "region": "Erudition"
     },
     {
         "name": "RAPPA",
-        "description": "Character description coming soon.",
+        "description": "A small, furry creature with immense power. Rappa may look cute, but it's a force to be reckoned with in a fight.",
         "image": "images/honkaiStarRail/mainImages/rappa_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/rappa_side.webp",
         "region": "Erudition"
     },
     {
         "name": "GREAT HERTA",
-        "description": "Character description coming soon.",
+        "description": "The master of the Herta Space Station. She is a brilliant scientist who has turned her consciousness into a puppet.",
         "image": "images/honkaiStarRail/mainImages/gerta_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/gerta_side.webp",
         "region": "Erudition"
     },
     {
         "name": "ANAXA",
-        "description": "Character description coming soon",
+        "description": "A powerful sorceress who commands the forces of nature. Anaxa can summon storms and earthquakes to vanquish her enemies.",
         "image": "images/honkaiStarRail/mainImages/anaksa_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/anaksa_side.webp",
         "region": "Erudition"
     },
     {
         "name": "BRONYA",
-        "description": "Character description coming soon.",
+        "description": "The heir to the Supreme Guardian of Belobog, and the commander of the Silvermane Guards. She is a capable and righteous leader.",
         "image": "images/honkaiStarRail/mainImages/bronya_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/bronya_side.webp",
         "region": "Harmony"
     },
     {
         "name": "RUAN MEI",
-        "description": "Character description coming soon.",
+        "description": "A sweet-tempered and elegant scholar, and Member #81 of the Genius Society. She is an expert in the biological sciences.",
         "image": "images/honkaiStarRail/mainImages/ghuan_mei_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/ghuan_mei_side.webp",
         "region": "Harmony"
     },
     {
         "name": "SPARKLE",
-        "description": "Character description coming soon.",
+        "description": "A member of the Masked Fools. She is a master of drama and an inscrutable character, obsessed with finding amusement.",
         "image": "images/honkaiStarRail/mainImages/iscorka_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/iscorka_side.webp",
         "region": "Harmony"
     },
     {
         "name": "ROBIN",
-        "description": "Character description coming soon.",
+        "description": "A Halovian singer born in Penacony, who has become a galactic superstar. She is known for her beautiful voice and elegant demeanor.",
         "image": "images/honkaiStarRail/mainImages/zaryanka_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/zaryanka_side.webp",
         "region": "Harmony"
     },
     {
         "name": "SUNDAY",
-        "description": "Character description coming soon.",
+        "description": "A Halovian singer and Robin's older brother. He is a devout follower of the Family and a man of great influence in Penacony.",
         "image": "images/honkaiStarRail/mainImages/voskresenie_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/voskresenie_side.webp",
         "region": "Harmony"
     },
     {
         "name": "TRIBBI",
-        "description": "Character description coming soon.",
+        "description": "A mischievous and playful creature who loves to cause chaos. Tribbi's attacks are unpredictable and often comical.",
         "image": "images/honkaiStarRail/mainImages/tribbi_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/tribbi_side.webp",
         "region": "Harmony"
     },
     {
         "name": "KERIDRA",
-        "description": "Character description coming soon.",
+        "description": "A wise and ancient being who has witnessed the rise and fall of civilizations. Keridra possesses immense knowledge and power.",
         "image": "images/honkaiStarRail/mainImages/kerida_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/kerida_side.webp",
         "region": "Harmony"
     },
     {
         "name": "WELT",
-        "description": "Character description coming soon.",
+        "description": "The wise and seasoned former Anti-Entropy Sovereign who has saved Earth from annihilation time and time again. He is now a member of the Astral Express crew.",
         "image": "images/honkaiStarRail/mainImages/velt_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/velt_side.webp",
         "region": "Nihility"
     },
     {
         "name": "SILVER WOLF",
-        "description": "Character description coming soon.",
+        "description": "A member of the Stellaron Hunters and a genius hacker. She can crack any defense system and sees the universe as a massive immersive simulation game.",
         "image": "images/honkaiStarRail/mainImages/silver_wolf_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/silver_wolf_side.webp",
         "region": "Nihility"
     },
     {
         "name": "KAFKA",
-        "description": "Character description coming soon.",
+        "description": "A member of the Stellaron Hunters, whose name is on the Interastral Peace Corporation's wanted list. She is a beautiful and deadly woman.",
         "image": "images/honkaiStarRail/mainImages/kafka_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/kafka_side.webp",
         "region": "Nihility"
     },
     {
         "name": "BLACK SWAN",
-        "description": "Character description coming soon.",
+        "description": "A Memokeeper of the Garden of Recollection. A mysterious and elegant soothsayer with a warm smile.",
         "image": "images/honkaiStarRail/mainImages/black_lebed_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/black_lebed_side.webp",
         "region": "Nihility"
     },
     {
         "name": "ACHERON",
-        "description": "Character description coming soon.",
+        "description": "A mysterious Galaxy Ranger who claims to be a wanderer of the cosmos. Her true name is unknown, and she walks the Path of Nihility.",
         "image": "images/honkaiStarRail/mainImages/aheron_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/aheron_side.webp",
         "region": "Nihility"
     },
     {
         "name": "JIAOQIU",
-        "description": "Character description coming soon.",
+        "description": "A cunning and manipulative strategist, Jiaoqiu always seems to be one step ahead of their opponents.",
         "image": "images/honkaiStarRail/mainImages/czyaocu_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/czyao_cu_side.webp",
         "region": "Nihility"
     },
     {
         "name": "FUGA",
-        "description": "Character description coming soon.",
+        "description": "A silent and deadly assassin, Fuga moves like a shadow and strikes without warning.",
         "image": "images/honkaiStarRail/mainImages/fuga_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/fuga_side.webp",
         "region": "Nihility"
     },
     {
         "name": "CIFER",
-        "description": "Character description coming soon.",
+        "description": "A master of disguise and deception, Cifer can infiltrate any organization and extract any information.",
         "image": "images/honkaiStarRail/mainImages/cifer_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/cifer_side.webp",
         "region": "Nihility"
     },
     {
         "name": "GISILENSA",
-        "description": "Character description coming soon.",
+        "description": "A powerful and ancient being, Gisilensa is said to be able to control the flow of time itself.",
         "image": "images/honkaiStarRail/mainImages/gisilensa_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/gisilensa_side.webp",
         "region": "Nihility"
     },
     {
         "name": "GEPARD",
-        "description": "Character description coming soon.",
+        "description": "The captain of the Silvermane Guards, he is a righteous and meticulous man responsible for the defense of Belobog.",
         "image": "images/honkaiStarRail/mainImages/gepard_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/gepard_side.webp",
         "region": "Preservation"
     },
     {
         "name": "FU XUAN",
-        "description": "Character description coming soon.",
+        "description": "The head of the Xianzhou Luofu's Divination Commission. She is a confident and blunt sage.",
         "image": "images/honkaiStarRail/mainImages/fu_suan_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/fu_suan_side.webp",
         "region": "Preservation"
     },
     {
         "name": "AVENTURINE",
-        "description": "Character description coming soon.",
+        "description": "A senior manager in the IPC's Strategic Investment Department and one of the Ten Stonehearts. He is a man who loves high-stakes gambling.",
         "image": "images/honkaiStarRail/mainImages/avanturin_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/avanturin_side.webp",
         "region": "Preservation"
     },
     {
         "name": "BAILU",
-        "description": "Character description coming soon.",
+        "description": "A young Vidyadhara healer known as the 'Healer Lady' on the Xianzhou Luofu. She is a kind and compassionate doctor.",
         "image": "images/honkaiStarRail/mainImages/bailu_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/bailu_side.webp",
         "region": "Abundance"
     },
     {
         "name": "LUOCHA",
-        "description": "Character description coming soon.",
+        "description": "A handsome and elegant man who carries a giant coffin on his back. He is a skilled merchant and a powerful healer.",
         "image": "images/honkaiStarRail/mainImages/locha_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/locha_side.webp",
         "region": "Abundance"
     },
     {
         "name": "HUOHUO",
-        "description": "Character description coming soon.",
+        "description": "A timid and pitiful Foxian girl who is also a Ten-Lords Commission Judge-in-training. She is afraid of ghosts, but has to catch them.",
         "image": "images/honkaiStarRail/mainImages/hoho_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/hoho_side.webp",
         "region": "Abundance"
     },
     {
         "name": "LINSHA",
-        "description": "Character description coming soon.",
+        "description": "A gentle and caring healer, Linsha is a beacon of hope on the battlefield. Her touch can mend any wound.",
         "image": "images/honkaiStarRail/mainImages/linsha_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/linsha_side.webp",
         "region": "Abundance"
     },
     {
         "name": "AGLAIA",
-        "description": "Character description coming soon.",
+        "description": "A being of pure light and memory, Aglaia is a guardian of the past, present, and future.",
         "image": "images/honkaiStarRail/mainImages/aglaya_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/aglaya_side.webp",
         "region": "Memory"
     },
     {
         "name": "CASTORIA",
-        "description": "Character description coming soon.",
+        "description": "A powerful warrior who can call upon the spirits of fallen heroes to aid her in battle.",
         "image": "images/honkaiStarRail/mainImages/kastoria_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/kastoriya_side.webp",
         "region": "Memory"
     },
     {
         "name": "HYACINA",
-        "description": "Character description coming soon.",
+        "description": "A beautiful and deadly siren, Hyacina's song can lure her enemies to their doom.",
         "image": "images/honkaiStarRail/mainImages/giacina_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/giacina_side.webp",
         "region": "Memory"
