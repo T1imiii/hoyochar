@@ -201,7 +201,8 @@ header {
     backdrop-filter: blur(4px);
 }
 
-.home-content h1 { 
+.home-content h1 {
+    font-family: 'Nexa', sans-serif;
     font-size: 3rem; 
     margin-bottom: 1rem; 
     color: var(--primary-color); 
@@ -310,6 +311,7 @@ header {
 }
 
 #characters-page .character-card .character-name-overlay { 
+    font-family: 'Nexa', sans-serif;
     position: absolute; 
     bottom: 0; 
     left: 0; 
@@ -332,7 +334,7 @@ header {
     flex-direction: column;
     justify-content: space-between; 
     align-items: flex-start;
-    padding: 10vh 6vw;
+    padding: 10vh 5vw;
     box-sizing: border-box; 
     transition: opacity 0.5s ease-in-out; 
     position: absolute; 
@@ -349,28 +351,31 @@ header {
     text-align: left; 
 }
 #characters-page .character-name { 
+    font-family: 'Nexa', sans-serif;
     font-size: 5rem; 
     font-weight: 900; 
     text-transform: uppercase; 
     line-height: 1.1; 
     margin: 0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.9);
 }
 #characters-page .name-separator { 
-    height: 4px; 
-    width: 100px; 
+    height: 6px; 
+    width: 400px; 
     background-color: var(--accent-color); 
     margin: 2rem 0;
 }
 #characters-page .character-description { 
     line-height: 1.7;
-    font-size: 1rem;
+    font-size: 0.90rem;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.9);
 }
 
 #characters-page .watch-demo-btn { 
     display: inline-flex;
     align-items: center;
     cursor: pointer;
-    align-self: center;
+    align-self: left;
     padding: 0.8rem 1.5rem;
     border: 2px solid var(--accent-color);
     border-radius: 8px;

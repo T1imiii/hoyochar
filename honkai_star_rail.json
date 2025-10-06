@@ -72,8 +72,8 @@
     {
         "name": "YANQING",
         "description": "Character description coming soon.",
-        "image": "images/honkaiStarRail/mainImages/yancin_main.jpg",
-        "cardImage": "images/honkaiStarRail/sideImages/yancin_side.jpg",
+        "image": "images/honkaiStarRail/mainImages/yancin_main.webp",
+        "cardImage": "images/honkaiStarRail/sideImages/yancin_side.webp",
         "region": "Hunt"
     },
     {
