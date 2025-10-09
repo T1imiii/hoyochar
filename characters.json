@@ -399,5 +399,46 @@
         "cardImage": "images/genshinImpact/sideImages/varesa_side.webp",
         "demoVideo": "",
         "region": "NATLAN"
+    },
+    {
+        "name": "TARTAGLIA",
+        "description": "Tartaglia, also known by his codename \"Childe\", is the Eleventh of the Fatui Harbingers, a battle-hardened warrior who thrives on conflict and the thrill of combat. He is the youngest member of the Harbingers, possessing a youthful, almost boyish enthusiasm that starkly contrasts with his deadly prowess on the battlefield. <br><br>He enjoys fishing, exploring, and spending time with his younger siblings, showing a tender, familial side that is completely separate from his identity as a Fatui enforcer.",
+        "image": "images/genshinImpact/mainImages/tartaliya_main.webp",
+        "cardImage": "images/genshinImpact/sideImages/tartaliya_side.webp",
+        "demoVideo": "",
+        "region": "SNEZHNAYA"
+    },
+    {
+        "name": "ARLECCHINO",
+        "description": "Arlecchino, also known as \"The Knave\", is the Fourth of the Fatui Harbingers and a figure of formidable power and chilling charisma. She presents a facade of elegant nobility and sharp intellect, often speaking in a calm, measured tone that belies her ruthless nature. <br><br> As the director of the House of the Hearth, she operates an orphanage that ostensibly cares for children, but in reality, functions as a training ground for Fatui agents, molding orphans into loyal tools for the Fatui's cause.",
+        "image": "images/genshinImpact/mainImages/arlekino_main.webp",
+        "cardImage": "images/genshinImpact/sideImages/arlekino_side.webp",
+        "demoVideo": "",
+        "region": "SNEZHNAYA"
+    },
+    {
+        "name": "INEFFA",
+        "description": "A universal robot made of components from different countries. The core of the source in her chest has survived for countless years.",
+        "image": "images/genshinImpact/mainImages/ineffa_main.webp",
+        "cardImage": "images/genshinImpact/sideImages/ineffa_side.webp",
+        "demoVideo": "",
+        "region": "NOD-KRAI"
+    },
+    {
+        "name": "FLINS",
+        "description": "The Lightbearer of Nod-Krai, who looks after the lighthouse and cemetery on the northern island. A mysterious gentleman with impeccable manners.",
+        "image": "images/genshinImpact/mainImages/flins_main.webp",
+        "cardImage": "images/genshinImpact/sideImages/flins_side.webp",
+        "demoVideo": "",
+        "region": "NOD-KRAI"
+    },
+    {
+        "name": "LAUMA",
+        "description": "A saint blessed by moonlight and the forest, a hope born among the Children of the Frost Moon.",
+        "image": "images/genshinImpact/mainImages/lauma_main.webp",
+        "cardImage": "images/genshinImpact/sideImages/lauma_side.webp",
+        "demoVideo": "",
+        "region": "NOD-KRAI"
     }
+
 ]

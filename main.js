@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             let regions, defaultRegionName;
             if (game === 'characters') {
-                regions = ['MONSTADT', 'LIYUE', 'INAZUMA', 'SUMERU', 'FONTAINE', 'NATLAN'];
+                regions = ['MONSTADT', 'LIYUE', 'INAZUMA', 'SUMERU', 'FONTAINE', 'NATLAN', 'SNEZHNAYA', 'NOD-KRAI'];
                 defaultRegionName = 'MONSTADT';
             } else if (game === 'honkai_star_rail') {
                 regions = ['Destruction', 'Hunt', 'Erudition', 'Harmony', 'Nihility', 'Preservation', 'Abundance', 'Memory'];
