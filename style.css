@@ -550,16 +550,80 @@ header {
 .post-attachments {
     margin-bottom: 1.5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
+    gap: 8px; /* Add a gap between grid items */
+    border-radius: 8px; /* Rounded corners for the container */
+    overflow: hidden; /* Clip the corners of the children */
 }
 
-.post-attachments img {
-    width: 100%;
-    border-radius: 8px;
-    object-fit: cover;
-    cursor: pointer;
+/* Default to a single column */
+.attachments-1 {
+    grid-template-columns: 1fr;
 }
+
+/* Two images side-by-side */
+.attachments-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Three images, one large and two small */
+.attachments-3 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.attachments-3 .attachment-link:first-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+/* Four images in a 2x2 grid */
+.attachments-4 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+/* 5+ images get a more complex grid */
+.attachments-5, .attachments-6, .attachments-7, .attachments-8, .attachments-9, .attachments-10 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
+}
+
+
+.attachment-link {
+    display: block;
+    position: relative;
+    background-color: #000; /* Black background for contrast */
+    overflow: hidden;
+    height: 300px; /* Give a fixed height to normalize the grid */
+}
+
+
+.attachment-bg {
+    position: absolute;
+    top: -20px; /* Enlarge to hide blurred edges */
+    left: -20px;
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px) brightness(0.7);
+    opacity: 0.8;
+}
+
+.attachment-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* This is key: fits the image within the container */
+    object-position: center;
+    transition: transform 0.3s ease;
+}
+
+.attachment-link:hover .attachment-img {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
 
 .post-footer {
     display: flex;

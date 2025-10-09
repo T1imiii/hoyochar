@@ -195,14 +195,21 @@ document.addEventListener('DOMContentLoaded', () => {
             const postText = post.text.replace(/\n/g, '<br>');
             let attachmentsHTML = '';
             if (post.attachments && post.attachments.length > 0) {
-                attachmentsHTML = '<div class="post-attachments">';
-                post.attachments.forEach(att => {
-                    if (att.type === 'photo') {
+                const photoAttachments = post.attachments.filter(att => att.type === 'photo');
+                const numAttachments = photoAttachments.length;
+                if (numAttachments > 0) {
+                    const gridClass = `attachments-${Math.min(numAttachments, 10)}`;
+                    attachmentsHTML = `<div class="post-attachments ${gridClass}">`;
+                    photoAttachments.forEach(att => {
                         const bestSize = att.photo.sizes.sort((a, b) => b.width - a.width)[0];
-                        attachmentsHTML += `<a href="${bestSize.url}" target="_blank"><img src="${bestSize.url}" alt="Post attachment"></a>`;
-                    }
-                });
-                attachmentsHTML += '</div>';
+                        attachmentsHTML += `
+                            <a href="${bestSize.url}" target="_blank" class="attachment-link">
+                                <div class="attachment-bg" style="background-image: url('${bestSize.url}')"></div>
+                                <img src="${bestSize.url}" alt="Post attachment" class="attachment-img">
+                            </a>`;
+                    });
+                    attachmentsHTML += '</div>';
+                }
             }
             return `
                 <div class="post-card">

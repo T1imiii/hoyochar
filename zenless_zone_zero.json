@@ -2,7 +2,7 @@
 [
     {
         "name": "NEKOMIYA MANA",
-        "description": "A cheerful and energetic member of the Clever Hares who is always ready for a new adventure.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/nekomata_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/nekomata_side.webp",
         "demoVideo": "",
@@ -10,7 +10,7 @@
     },
     {
         "name": "NICOLE DEMARA",
-        "description": "The cunning leader of the odd-job agency 'Clever Hares', known for her resourcefulness.",
+        "description": "Nicole Demara is the founder and current leader of the Cunning Hares odd-job agency. Despite taking on any and all Hollow-related commissions and typically charging a high commission fee, she struggles with finances, leading the Cunning Hares to frequently be in debt, sometimes bordering on bankruptcy. Due to this and her all-or nothing approach, the Cunning Hares have become somewhat infamous in the space, with many clients blacklisting her completely and reviews received on Inter-Knot painting her in an unflattering light.",
         "image": "images/zenlessZoneZero/mainImages/nikol_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/nikol_side.webp",
         "demoVideo": "",
@@ -18,7 +18,7 @@
     },
     {
         "name": "BILLY KID",
-        "description": "A cyborg with a carefree attitude and deadly accuracy, a key member of the Clever Hares.",
+        "description": "\"The White Chariot\" of the Cunning Hares and Former \"Red Scarf\" of Calydon, Billy Kid is an Intelligent Construct made for combat. Despite having a childish personality and fascination for the TV show Starlight Knight and the idol Monica, Billy is a skilled and powerful fighter, having once been an Outer Ring Champion and being able to outmatch Lighter in a fistfight.<br><br>Armed with a pair of revolvers, Billy fights countless threats inside Hollows as part of his job, though he does have a tendency to forget his ammo count.",
         "image": "images/zenlessZoneZero/mainImages/billy_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/billy_side.webp",
         "demoVideo": "",
@@ -26,7 +26,7 @@
     },
     {
         "name": "ANBY DEMARA",
-        "description": "A mysterious and quiet girl with exceptional combat skills, and a member of the Clever Hares.",
+        "description": "Anby Demara is a highly skilled member of the Cunning Hares and a former soldier of the New Eridu Defense Force. Though she lacks basic social skills, Anby makes up for it with her advanced combat prowess and Hollow knowledge gained from her genetic cloning and time as Soldier 0.<br><br>Anby has two notable special interests: movies and hamburgers, the former she uses as reference for real life events, and the latter her favorite food due to its taste, affordability, and complete nutritional value.",
         "image": "images/zenlessZoneZero/mainImages/enbi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/enbi_side.webp",
         "demoVideo": "",
@@ -34,7 +34,7 @@
     },
     {
         "name": "GRACE HOWARD",
-        "description": "A senior employee at Belobog Heavy Industries, respected for her efficiency and professionalism.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/greis_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/greis_side.webp",
         "demoVideo": "",
@@ -42,7 +42,7 @@
     },
     {
         "name": "KOLYADA BELOBOG",
-        "description": "The enigmatic leader of Belobog Combine, with a commanding presence and sharp intellect.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/kolyada_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/kolyada_side.webp",
         "demoVideo": "",
@@ -50,7 +50,7 @@
     },
     {
         "name": "BEN BIGGER",
-        "description": "A gentle giant from Belobog Combine, whose formidable appearance belies a kind heart.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/ben_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/ben_side.webp",
         "demoVideo": "",
@@ -58,7 +58,7 @@
     },
     {
         "name": "ANTON IVANOV",
-        "description": "A driven and ambitious project manager at Belobog Combine, known for his innovative ideas.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/anton_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/anton_side.webp",
         "demoVideo": "",
@@ -66,7 +66,7 @@
     },
     {
         "name": "ALEXANDRINA SEBASTIAN",
-        "description": "A high-ranking member of Victoria Housekeeping Co., with an elegant and refined demeanor.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/rina_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/rina_side.webp",
         "demoVideo": "",
@@ -74,7 +74,7 @@
     },
     {
         "name": "ELLEN JOE",
-        "description": "A cheerful and diligent maid from Victoria Housekeeping Co., who takes pride in her work.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/ellen_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/ellen_side.webp",
         "demoVideo": "",
@@ -82,7 +82,7 @@
     },
     {
         "name": "VON LYCAON",
-        "description": "A loyal and disciplined combat butler serving Victoria Housekeeping, with unmatched fighting skills.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/likaon_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/likaon_side.webp",
         "demoVideo": "",
@@ -90,7 +90,7 @@
     },
     {
         "name": "CORIN WICKES",
-        "description": "A quiet and observant maid from Victoria Housekeeping who notices every detail.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/korin_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/korin_side.webp",
         "demoVideo": "",
@@ -98,7 +98,7 @@
     },
     {
         "name": "ORPHEUS AND MAGUS",
-        "description": "A mysterious duo from the Obol Squad, whose true motives are unknown.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/orfeya_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/orfeya_side.webp",
         "demoVideo": "",
@@ -106,7 +106,7 @@
     },
     {
         "name": "SID",
-        "description": "A seasoned veteran of the Obol Squad, known for his tactical expertise.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/sid_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/sid_side.webp",
         "demoVideo": "",
@@ -114,7 +114,7 @@
     },
     {
         "name": "GATCHET",
-        "description": "The tech specialist of the Obol Squad, capable of hacking any system.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/gashetka_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/gashetka_side.webp",
         "demoVideo": "",
@@ -122,7 +122,7 @@
     },
     {
         "name": "SOLDIER 11",
-        "description": "A highly trained and disciplined soldier from the Obol Squad, always ready for a mission.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/solder_11_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/solder_11_side.webp",
         "demoVideo": "",
@@ -130,7 +130,7 @@
     },
     {
         "name": "SOLDIER 0 ENBY",
-        "description": "An elite operative of the Obol Squad, shrouded in mystery and fear.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/solder_0_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/solder_0_side.webp",
         "demoVideo": "",
@@ -138,7 +138,7 @@
     },
     {
         "name": "ASABA HARUMASA",
-        "description": "The strict and honorable captain of Section 6, dedicated to maintaining order.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/asaba_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/asaba_side.webp",
         "demoVideo": "",
@@ -146,7 +146,7 @@
     },
     {
         "name": "HOSHIMI MIYABI",
-        "description": "The graceful and skilled vice-captain of Section 6, a master of the blade.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/miyabi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/miyabi_side.webp",
         "demoVideo": "",
@@ -154,7 +154,7 @@
     },
     {
         "name": "TSUKISHIRO YANAGI",
-        "description": "The intelligence officer of Section 6, known for her sharp mind and analytical skills.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/yanagi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/yanagi_side.webp",
         "demoVideo": "",
@@ -162,7 +162,7 @@
     },
     {
         "name": "SOKAKU",
-        "description": "A powerful and enigmatic member of Section 6, whose abilities are feared by many.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/sokaku_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/sokaku_side.webp",
         "demoVideo": "",
@@ -170,7 +170,7 @@
     },
     {
         "name": "QINGYI",
-        "description": "A spirited and determined investigator from the Criminal Investigation Special Team.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/cinui_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/cinui_side.webp",
         "demoVideo": "",
@@ -178,7 +178,7 @@
     },
     {
         "name": "ZHU YUAN",
-        "description": "A calm and collected analyst for the Criminal Investigation Special Team.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/chgu_uan_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/chgu_uan_side.webp",
         "demoVideo": "",
@@ -186,7 +186,7 @@
     },
     {
         "name": "JANE DOE",
-        "description": "A mysterious operative of the Criminal Investigation Special Team, with a hidden past.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/jane_dou_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/jane_dou_side.webp",
         "demoVideo": "",
@@ -194,7 +194,7 @@
     },
     {
         "name": "SETH LOWELL",
-        "description": "The charismatic and resourceful leader of the Criminal Investigation Special Team.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/set_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/set_side.webp",
         "demoVideo": "",
@@ -202,7 +202,7 @@
     },
     {
         "name": "LIGHTER",
-        "description": "A fiery and passionate member of the Sons of Calidon, always ready for a fight.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/laiter_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/laiter_side.webp",
         "demoVideo": "",
@@ -210,7 +210,7 @@
     },
     {
         "name": "BERNICE WHITE",
-        "description": "The cool and composed strategist of the Sons of Calidon.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/bernis_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/bernis_side.webp",
         "demoVideo": "",
@@ -218,7 +218,7 @@
     },
     {
         "name": "CAESAR KING",
-        "description": "The proud and powerful leader of the Sons of Calidon.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/cesar_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/cesar_side.webp",
         "demoVideo": "",
@@ -226,7 +226,7 @@
     },
     {
         "name": "PULCHRA FELLINI",
-        "description": "An elegant and deadly fighter from the Sons of Calidon.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/pulhra_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/pulhra_side.webp",
         "demoVideo": "",
@@ -234,7 +234,7 @@
     },
     {
         "name": "PIPER WHEEL",
-        "description": "The cheerful and optimistic mechanic of the Sons of Calidon.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/piper_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/piper_side.webp",
         "demoVideo": "",
@@ -242,7 +242,7 @@
     },
     {
         "name": "LUCIANA MONTEFIO",
-        "description": "A wealthy and influential patron of the Sons of Calidon.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/lusi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/lusi_side.webp",
         "demoVideo": "",
@@ -250,7 +250,7 @@
     },
     {
         "name": "EVELYN CHEVALIER",
-        "description": "A graceful and composed member of the Lyra Constellation.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/evelin_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/evelin_side.webp",
         "demoVideo": "",
@@ -258,7 +258,7 @@
     },
     {
         "name": "ASTRA YAO",
-        "description": "A mysterious and powerful member of the Lyra Constellation.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/astra_yao_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/astra_yao_side.webp",
         "demoVideo": "",
@@ -266,7 +266,7 @@
     },
     {
         "name": "HUGO VLAD",
-        "description": "The charismatic and dangerous leader of the Mockingbirds.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/hugo_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/hugo_side.webp",
         "demoVideo": "",
@@ -274,7 +274,7 @@
     },
     {
         "name": "VIVIAN",
-        "description": "A cunning and deadly member of the Mockingbirds.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/vivian_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/vivian_side.webp",
         "demoVideo": "",
@@ -282,7 +282,7 @@
     },
     {
         "name": "YIXUAN",
-        "description": "A disciplined and skilled martial artist from the Yunkui Mountain School.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/isuan_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/isuan_side.webp",
         "demoVideo": "",
@@ -290,7 +290,7 @@
     },
     {
         "name": "JUYOU FUFU",
-        "description": "A wise and powerful master from the Yunkui Mountain School.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/fufu_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/fufu_side.webp",
         "demoVideo": "",
@@ -298,7 +298,7 @@
     },
     {
         "name": "PAN YINGHU",
-        "description": "A young and talented disciple of the Yunkui Mountain School.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/pan_inhu_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/pan_inhu_side.webp",
         "demoVideo": "",
@@ -306,7 +306,7 @@
     },
     {
         "name": "ALICE TIMEFIELD",
-        "description": "The mysterious and powerful owner of The Hut of Nightmares.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/alice_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/alice_side.webp",
         "demoVideo": "",
@@ -314,7 +314,7 @@
     },
     {
         "name": "UKINAMI YUZUHA",
-        "description": "A regular visitor to The Hut of Nightmares, with a strange connection to its owner.",
+        "description": "",
         "image": "images/zenlessZoneZero/mainImages/yudzuha_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/yudzuha_side.webp",
         "demoVideo": "",
