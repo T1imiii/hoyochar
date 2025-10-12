@@ -228,7 +228,7 @@ header {
 #home-page .home-background {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-image: url('images/genshinImpact/mainImages/raiden_shogun_main.webp');
+    background-image: url('images/background.webp');
     background-size: cover;
     background-position: center;
     filter: brightness(0.4);

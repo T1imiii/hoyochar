@@ -2,19 +2,19 @@
 [
     {
         "name": "NEKOMIYA MANA",
-        "description": "",
+        "description": "Nekomiya Mana. Refers to herself as \"Nekomata\". A cat Thiren with feline traits, possessing great dexterity when hunting and an insatiable curiosity about the outside world.<br><br> Sometimes mischievous, she engages in harmless pranks. But when she sets her sights on a target, her feline-like agility and focus are enough to leave others in awe.",
         "image": "images/zenlessZoneZero/mainImages/nekomata_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/nekomata_side.webp",
         "demoVideo": "",
-        "region": "Clever Hares"
+        "region": "Cunning Hares"
     },
     {
         "name": "NICOLE DEMARA",
-        "description": "Nicole Demara is the founder and current leader of the Cunning Hares odd-job agency. Despite taking on any and all Hollow-related commissions and typically charging a high commission fee, she struggles with finances, leading the Cunning Hares to frequently be in debt, sometimes bordering on bankruptcy. Due to this and her all-or nothing approach, the Cunning Hares have become somewhat infamous in the space, with many clients blacklisting her completely and reviews received on Inter-Knot painting her in an unflattering light.",
+        "description": "Nicole Demara is the founder and current leader of the Cunning Hares odd-job agency. Despite taking on any and all Hollow-related commissions and typically charging a high commission fee, she struggles with finances, leading the Cunning Hares to frequently be in debt, sometimes bordering on bankruptcy.<br><br> Due to this and her all-or nothing approach, the Cunning Hares have become somewhat infamous in the space, with many clients blacklisting her completely and reviews received on Inter-Knot painting her in an unflattering light.",
         "image": "images/zenlessZoneZero/mainImages/nikol_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/nikol_side.webp",
         "demoVideo": "",
-        "region": "Clever Hares"
+        "region": "Cunning Hares"
     },
     {
         "name": "BILLY KID",
@@ -22,7 +22,7 @@
         "image": "images/zenlessZoneZero/mainImages/billy_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/billy_side.webp",
         "demoVideo": "",
-        "region": "Clever Hares"
+        "region": "Cunning Hares"
     },
     {
         "name": "ANBY DEMARA",
@@ -30,43 +30,43 @@
         "image": "images/zenlessZoneZero/mainImages/enbi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/enbi_side.webp",
         "demoVideo": "",
-        "region": "Clever Hares"
+        "region": "Cunning Hares"
     },
     {
         "name": "GRACE HOWARD",
-        "description": "",
+        "description": "Grace Howard is the eccentric, machine-obsessed R&D specialist of Belobog Heavy Industries, and adoptive sister to Belobog's current president, Koleda. She is responsible for the new-generation of in-Hollow Smart Machinery the company uses. <br><br>Whilst having a notable interest in dismantling and examining machinery, Grace also sees creations of her own as her 'children,' ready to protect them at any given moment.",
         "image": "images/zenlessZoneZero/mainImages/greis_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/greis_side.webp",
         "demoVideo": "",
-        "region": "Belobog Combine"
+        "region": "Belobog Heavy Industries"
     },
     {
         "name": "KOLYADA BELOBOG",
-        "description": "",
+        "description": "Koleda is the current head of Belobog Industries, and the biological daughter of the company's founder, Khors. Her father, Khors, vanished due to a scandal involving embezzlement and fled, which severely shook the company, nearly driving it to the brink of collapse. <br><br> Once she came of age, Koleda willingly stepped up to untangle the mess, rallying the remaining company workforce and resources to revive the financially and reputationally vulnerable Belobog Heavy Industries.",
         "image": "images/zenlessZoneZero/mainImages/kolyada_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/kolyada_side.webp",
         "demoVideo": "",
-        "region": "Belobog Combine"
+        "region": "Belobog Heavy Industries"
     },
     {
         "name": "BEN BIGGER",
-        "description": "",
+        "description": "Ben is the financial and asset management director at Belobog Heavy Industries, and one of Koleda's trusted aides. \"I enjoy mathematics, but that doesn't stop me from giving thugs a good smack\". <br><br>He's a burly and strong Thiren Despite his tough exterior, he's of a surprisingly sensitive and detail-oriented nature, especially when it comes to numbers. Originally a frontline mechanical operator at Belobog, his talents caught.",
         "image": "images/zenlessZoneZero/mainImages/ben_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/ben_side.webp",
         "demoVideo": "",
-        "region": "Belobog Combine"
+        "region": "Belobog Heavy Industries"
     },
     {
         "name": "ANTON IVANOV",
-        "description": "",
+        "description": "Anton is a key member of construction staff at Belobog Industries and one of Koleda's trusted aides. \"Got a job you can't handle? Leave it to me!\" <br><br>Anton is one of the top brass at Belobog, handpicked by its former president Khors, which makes him a \"senior employee\". A genuine, straightforward man, always boosting the morale of his coworkers with his surplus of energy.",
         "image": "images/zenlessZoneZero/mainImages/anton_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/anton_side.webp",
         "demoVideo": "",
-        "region": "Belobog Combine"
+        "region": "Belobog Heavy Industries"
     },
     {
         "name": "ALEXANDRINA SEBASTIAN",
-        "description": "",
+        "description": "Rina, the head maid of Victoria Housekeeping Co., and the most senior member of the organization. She possesses beauty and grace, appearing immaculate from head to toe, with a noble demeanor and a gentle smile on her face. She places considerable importance on how she is perceived by others.",
         "image": "images/zenlessZoneZero/mainImages/rina_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/rina_side.webp",
         "demoVideo": "",
@@ -74,7 +74,7 @@
     },
     {
         "name": "ELLEN JOE",
-        "description": "",
+        "description": "Ellen Joe is a laid-back Shark Thiren that attends school in New Eridu who hates activities that require energy. Despite her personality and aloofness, Ellen is a significantly popular student at the school, though she prefers spending time with fellow students Ruby, Monna, and Lynn at karaoke bars, Godfinger and more.",
         "image": "images/zenlessZoneZero/mainImages/ellen_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/ellen_side.webp",
         "demoVideo": "",
@@ -82,7 +82,7 @@
     },
     {
         "name": "VON LYCAON",
-        "description": "",
+        "description": "Lycaon, the substantive leader and representative of Victoria Housekeeping Co., is responsible for managing all members of the company. Rational and reliable, Lycaon is an elegant gentleman and a versatile attendant who can solve any problem. He is the cornerstone of his team and a reassuring presence. He has a slight obsession with cleanliness, always tidying up his surroundings and unable to tolerate dirty environments.",
         "image": "images/zenlessZoneZero/mainImages/likaon_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/likaon_side.webp",
         "demoVideo": "",
@@ -90,7 +90,7 @@
     },
     {
         "name": "CORIN WICKES",
-        "description": "",
+        "description": "Corin Wickes is a young maid working for Victoria Housekeeping Co. who has notable self esteem and confidence issues. Once a sickly girl who required major surgery, Corin is now an exceptional combatant who takes an intimidating and devastating 'chainsaw' with her wherever she goes, be it for in-Hollow commissions, for maid-related tasks, and for everyday life.",
         "image": "images/zenlessZoneZero/mainImages/korin_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/korin_side.webp",
         "demoVideo": "",
@@ -98,23 +98,23 @@
     },
     {
         "name": "ORPHEUS AND MAGUS",
-        "description": "",
+        "description": "Orphie Magnusson and Magus are two members of the Obol Squad. Orphie is a human soldier, and Magus is the tail-like Intelligent Construct attached to her back. Due to being created solely as a gunner, Orphie has doubts about her uniqueness as a person and her purpose outside of the military. She is aware that many of her comrades in the New Eridu Defense Force pity her and mock her, with some even being disgusted by her existence.",
         "image": "images/zenlessZoneZero/mainImages/orfeya_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/orfeya_side.webp",
         "demoVideo": "",
         "region": "Obol Squad"
     },
     {
-        "name": "SID",
-        "description": "",
+        "name": "SEED",
+        "description": "Seed is the artillerist of the Obol Squad, and has a passion for flowers, mechanics, cramped spaces, and communicating with Bangboo. She knows how to speak Bangboo, and likes doing it, making fellow squadmate Trigger belive she has a \"complicated\" nature. Despite this, Bangboo largely struggle to understand her, with Mercury commenting her accent is so thick as to be nearly incomprehensible.",
         "image": "images/zenlessZoneZero/mainImages/sid_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/sid_side.webp",
         "demoVideo": "",
         "region": "Obol Squad"
     },
     {
-        "name": "GATCHET",
-        "description": "",
+        "name": "TRIGGER",
+        "description": "A nigh-blind sniper and frontline survivor of the old capital's fall, Trigger is a member of Obol Squad, where she uses her array of close-range, sharpshooting and stealth skills obtained from her time at Lyre Squad along with an ability gained from her corrupted eyesight dubbed 'Ether Vision' and heightened senses in hopes of finding the true culprits behind Eridu's fall.",
         "image": "images/zenlessZoneZero/mainImages/gashetka_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/gashetka_side.webp",
         "demoVideo": "",
@@ -122,15 +122,15 @@
     },
     {
         "name": "SOLDIER 11",
-        "description": "",
+        "description": "A soldier with no name and an affinity for fire. Solider 11 is a model soldier of the New Eridu Defense Force, serving as the primary responder and first striker for Obol Squad. Though an exceptional by-the-books soldier, Soldier 11 has notable quirks, namely her love for spicy food (specifically super-spicy noodles from Sixth Street's Waterfall Soup) and a habit of calling Phaethon by a different codename on every occasion.",
         "image": "images/zenlessZoneZero/mainImages/solder_11_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/solder_11_side.webp",
         "demoVideo": "",
         "region": "Obol Squad"
     },
     {
-        "name": "SOLDIER 0 ENBY",
-        "description": "",
+        "name": "SOLDIER 0 ANBY",
+        "description": "Captain of the long-defunct Silver Squad, Soldier 0, now known as Anby Demara, is a skilled soldier proficient in tactics and swordplay. Once considered as an expendable unit of the Obsidian Division, Anby now lives a relatively simpler life as a member of the odd-job agency Cunning Hares, where she is treated humanely and nurtures friendships.",
         "image": "images/zenlessZoneZero/mainImages/solder_0_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/solder_0_side.webp",
         "demoVideo": "",
@@ -138,7 +138,7 @@
     },
     {
         "name": "ASABA HARUMASA",
-        "description": "",
+        "description": "Asaba Harumasa is the carefree expert archer of Hollow Special Operations Section 6. A child prodigy with both bow and blade, Harumasa aids his teammates from afar, while also being able to switch to close combat if necessary. He has little interest in work, and tries his best to slack off, usually doing things to the acceptable minimum and napping for the rest of the job as he waits to clock out.",
         "image": "images/zenlessZoneZero/mainImages/asaba_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/asaba_side.webp",
         "demoVideo": "",
@@ -146,7 +146,7 @@
     },
     {
         "name": "HOSHIMI MIYABI",
-        "description": "",
+        "description": "The youngest Void Hunter to date and Chief of Hollow Special Operations Section 6, Hoshimi Miyabi is a woman who defies the status quo and uses Tailless, her family heirloom's cursed blade, to protect the city of New Eridu and unveil the corruption within it. Although she's the chief of Section 6, Miyabi does little work related to it, with bureaucratic tasks being handled by Deputy Chief Tsukishiro Yanagi.",
         "image": "images/zenlessZoneZero/mainImages/miyabi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/miyabi_side.webp",
         "demoVideo": "",
@@ -154,15 +154,15 @@
     },
     {
         "name": "TSUKISHIRO YANAGI",
-        "description": "",
+        "description": "The Deputy Chief of Hollow Special Operations Section 6, Tsukishiro Yanagi is an ex-soldier from the New Eridu Defense Force who has been infused with Oni blood. Her main jobs include general management, on-site support and being the guardian of her fellow member Soukaku; alongside all these duties, she usually finds herself having to complete the rest of the team's tasks as well.",
         "image": "images/zenlessZoneZero/mainImages/yanagi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/yanagi_side.webp",
         "demoVideo": "",
         "region": "Section 6"
     },
     {
-        "name": "SOKAKU",
-        "description": "",
+        "name": "SOUKAKU",
+        "description": "Soukaku is the gluttonous, childlike Oni of Hollow Special Operations Section 6. She's a powerful combatant who uses a custom made weapon known as an \"Oni Blade Banner\" in battle. Outside of battle, Soukaku has a notable interest in food, caring little about what she eats and hating when food is wasted.",
         "image": "images/zenlessZoneZero/mainImages/sokaku_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/sokaku_side.webp",
         "demoVideo": "",
@@ -170,7 +170,7 @@
     },
     {
         "name": "QINGYI",
-        "description": "",
+        "description": "Qingyi, or 01 Neo-Genesis VI, is an experienced Public Security officer and novice investigator. With a personally modified riot baton, she fights crime in New Eridu. The most notable thing about Qingyi is her mature personality, having built it off of Old Civilization media and her own very long life. She spends her free time with the elderly citizens of New Eridu, playing chess and drinking hot water. Compared to other Public Security officers, Qingyi is incredibly laid-back, from playing pranks on her other members to working with Proxies.",
         "image": "images/zenlessZoneZero/mainImages/cinui_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/cinui_side.webp",
         "demoVideo": "",
@@ -178,7 +178,7 @@
     },
     {
         "name": "ZHU YUAN",
-        "description": "",
+        "description": "Officer 148; Zhu Yuan, is an exceptional PubSec officer and current captain of the Criminal Investigation Special Response Team. A skilled martial artist and sharpshooter, Zhu Yuan uses the custom-made and versatile 'Suppressor K22' firearm in conjunction with swift punches and kicks to take down criminals. As a reputable officer, Zhu Yuan has a strict moral compass, looking down on criminals, but is shown to be okay with taking the assistance of Proxies if the situation calls for it.",
         "image": "images/zenlessZoneZero/mainImages/chgu_uan_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/chgu_uan_side.webp",
         "demoVideo": "",
@@ -186,7 +186,7 @@
     },
     {
         "name": "JANE DOE",
-        "description": "",
+        "description": "Jane, a criminal behavior specialist, has had a \"colorful\" career as a consultant with Public Security over the years. She is an expert in disguise, infiltration, and other investigative work. She has a bad habit of trolling others and sometimes plays harmless pranks. She's a skilled mimic, able to change her appearance and demeanor at will, making people wonder what the \"real\" Jane is like.",
         "image": "images/zenlessZoneZero/mainImages/jane_dou_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/jane_dou_side.webp",
         "demoVideo": "",
@@ -194,7 +194,7 @@
     },
     {
         "name": "SETH LOWELL",
-        "description": "",
+        "description": "Seth, a rookie officer in the Public Security Criminal Investigation Special Response Team, is a key player in providing fire support during criminal investigations. He graduated at the top of his class in the academy and could have landed a higher position, but he chose the tougher path of the Special Response Team.",
         "image": "images/zenlessZoneZero/mainImages/set_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/set_side.webp",
         "demoVideo": "",
@@ -202,15 +202,15 @@
     },
     {
         "name": "LIGHTER",
-        "description": "",
+        "description": "The \"Red Scarf\" and Champion of the Sons of Calydon, Lighter is an incredibly skilled fighter having experience from his time as a mercenary and underground fighter. Armed with an engine powered gauntlet, his duty is to fight the Champions of other biker gangs, a task he excels in, given he calls himself \"the undefeated Champion\".",
         "image": "images/zenlessZoneZero/mainImages/laiter_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/laiter_side.webp",
         "demoVideo": "",
         "region": "Sons of Calidon"
     },
     {
-        "name": "BERNICE WHITE",
-        "description": "",
+        "name": "BURNICE WHITE",
+        "description": "Mixologist, fuel chemist, pyromaniac. Burnice White can be considered the jack of all-trade of the Sons of Calydon. From creating the special fuel the gang uses for their machinery, to serving up exotic cocktails; both utilizing her favorite drink: Nitro-Fuel, and in-Hollow combat, where she fights up close or from mid-range with her personally made flamethrowers, Mixer and Shaker.",
         "image": "images/zenlessZoneZero/mainImages/bernis_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/bernis_side.webp",
         "demoVideo": "",
@@ -218,7 +218,7 @@
     },
     {
         "name": "CAESAR KING",
-        "description": "",
+        "description": "Caesar: Leader of the Sons of Calydon biker gang, and also a \"monarch\" in the making. Her combination of formidable strength and bold, straightforward personality has earned her the love and respect of the Outer Ring's residents. Although she appears to do things in her own way, she is actually very willing to listen to others' opinions.",
         "image": "images/zenlessZoneZero/mainImages/cesar_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/cesar_side.webp",
         "demoVideo": "",
@@ -226,7 +226,7 @@
     },
     {
         "name": "PULCHRA FELLINI",
-        "description": "",
+        "description": "Pulchra is an Outer Ring mercenary whose loyalty constantly fluctuates depending on who she deems the strongest. After several run-ins with the Sons of Calydon, she gained respect for the gang and began to reconsider her temporary allegiance with The Vanquishers. After Caesar King rose to power as Overlord, Pulchra finally decided to join the Sons of Calydon, becoming an intel gatherer for the gang.",
         "image": "images/zenlessZoneZero/mainImages/pulhra_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/pulhra_side.webp",
         "demoVideo": "",
@@ -234,7 +234,7 @@
     },
     {
         "name": "PIPER WHEEL",
-        "description": "",
+        "description": "Piper is a truck driver for the Sons of Calydon. Apart from driving, she's also responsible for vehicle maintenance and other related jobs. Her tiny stature, cute voice (though she always seems half-asleep when not driving), and adorably harmless appearance (though she's a shut-in who can't be bothered to take care of her own appearance) make it hard to imagine that she would have such a crazy driving style.",
         "image": "images/zenlessZoneZero/mainImages/piper_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/piper_side.webp",
         "demoVideo": "",
@@ -242,7 +242,7 @@
     },
     {
         "name": "LUCIANA MONTEFIO",
-        "description": "",
+        "description": "Luciana de Montefio, whose full name is Luciana Auxesis Theodoro de Montefio, is the daughter of the current head of the prestigious New Eridu Montefio family. Her personality is usually akin to that of a tsundere, seemingly acting harsh when she actually is compassionate and kind underneath, which may have been caused by her severed family ties and Outer Ring life.",
         "image": "images/zenlessZoneZero/mainImages/lusi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/lusi_side.webp",
         "demoVideo": "",
@@ -250,31 +250,31 @@
     },
     {
         "name": "EVELYN CHEVALIER",
-        "description": "",
+        "description": "Evelyn serves as the bodyguard and manager for Astra Yao, and as such has to micromanage both of their lives consistently due to Astra's busy schedule. She is often quite serious and no nonsense, being well guarded around others (an attitude developed during her prior career as part of The Organization), though she is notably more relaxed around Astra and the Phaethon siblings due to their time spent together.",
         "image": "images/zenlessZoneZero/mainImages/evelin_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/evelin_side.webp",
         "demoVideo": "",
-        "region": "Lyra Constellation"
+        "region": "Stars of Lyra"
     },
     {
         "name": "ASTRA YAO",
-        "description": "",
+        "description": "'The Queen' of New Eridu, Astra Yao is a multitalented celebrity mainly known for her singing prowess and impact she had on Ridu's music scene. Examples of her musical prowess include \"The Ultimate Voice\", which led to a live album from that concert and a videotape labeled \"f.f.\" being released afterwards, the album \"Monologue\", with the final song being a compilation of interviews she did for the \"Jealous\" Magazine, and \"Stars of Lyra\", Astra's first album she recorded before her big debut.",
         "image": "images/zenlessZoneZero/mainImages/astra_yao_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/astra_yao_side.webp",
         "demoVideo": "",
-        "region": "Lyra Constellation"
+        "region": "Stars of Lyra"
     },
     {
         "name": "HUGO VLAD",
-        "description": "",
+        "description": "Hugo Vlad is the leader of the infamous phantom thief syndicate Mockingbird, who expose the evil deeds of the corrupt and evil of soceity, bringing justice to an unfair world. In public, Hugo dons the facade of a collector, running an art gallery and making mingling with the elite. From members of TOPS, like the Marcel Group (where his Bangboo, Robin holds a coaching position), to prominent figures like Lord Edmund.",
         "image": "images/zenlessZoneZero/mainImages/hugo_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/hugo_side.webp",
         "demoVideo": "",
         "region": "Mockingbirds"
     },
     {
-        "name": "VIVIAN",
-        "description": "",
+        "name": "VIVIAN BANSHEE",
+        "description": "Vivian is a member of Mockingbird, skilled in gathering all kinds of intel. She's also a jack of many trades — cooking, mixology, translation, art forgery, electronics repair, and more. In the past, she apparently wandered without a home and was viewed as one who \"brought disaster\", almost like a living omen of bad luck.",
         "image": "images/zenlessZoneZero/mainImages/vivian_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/vivian_side.webp",
         "demoVideo": "",
@@ -282,42 +282,42 @@
     },
     {
         "name": "YIXUAN",
-        "description": "",
+        "description": "Yixuan is the eccentric thirteenth-generation master of Yunkui Summit. She is currently affiliated with the Hollow Investigative Association as a Void Hunter-level investigator and is acquainted with Mayor Mayflower. She and her disciples practice a craft similar to the abilities Phaethon gained after the Mayor's update to the Hollow Deep Dive System.",
         "image": "images/zenlessZoneZero/mainImages/isuan_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/isuan_side.webp",
         "demoVideo": "",
-        "region": "Yunkui Mountain School"
+        "region": "Yunkui Summit"
     },
     {
-        "name": "JUYOU FUFU",
-        "description": "",
+        "name": "JU FUFU",
+        "description": "Ju Fufu is a powerful mystic who takes great pride in her work and in her nature as a tiger Thiren. She is the most senior disciple of Yunkui Summit, though often gets annoyed with people assuming she's a kid when in practice she's just short in stature. She holds strong convictions and carries herself as a warrior of justice; one capable of dispatching evil wherever it should lurk.",
         "image": "images/zenlessZoneZero/mainImages/fufu_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/fufu_side.webp",
         "demoVideo": "",
-        "region": "Yunkui Mountain School"
+        "region": "Yunkui Summit"
     },
     {
-        "name": "PAN YINGHU",
-        "description": "",
+        "name": "PAN YINHU",
+        "description": "Pan Yinhu was the most junior disciple of Yunkui Summit, and serves as its resident chef. He is particularly proud of his cooking, and works hard to make sure the food he makes is the best it can be for his fellow disciplies, actively discouraging them from ordering takeout so that he can feed them instead. He is also the manager of Yunkui Summit's funds. Due to his upbringing where he had to scrape by just to eat, he is well versed in bargain hunting, keeping tabs on local businesses and having numerous technique for acquiring the best bargains at any given time.",
         "image": "images/zenlessZoneZero/mainImages/pan_inhu_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/pan_inhu_side.webp",
         "demoVideo": "",
-        "region": "Yunkui Mountain School"
+        "region": "Yunkui Summit"
     },
     {
-        "name": "ALICE TIMEFIELD",
-        "description": "",
+        "name": "ALICE THYMEFIELD",
+        "description": "One of the last remaining survivors of the Thymefield Family, Alice Thymefield is a young lady who currently attends the Celestia School for Girls, whilst being exceptional in fencing (her main form of combat) and Ether science. She is wildly obsessed with symmetry, especially after her father, Lionel Thymefield's death, which made her subconsciously believe that asymmetry could lead to disaster.",
         "image": "images/zenlessZoneZero/mainImages/alice_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/alice_side.webp",
         "demoVideo": "",
-        "region": "The Hut of Nightmares"
+        "region": "Spook Shack"
     },
     {
         "name": "UKINAMI YUZUHA",
-        "description": "",
+        "description": "Ukinami Yuzuha, a resident of Waifei Peninsula's Failume Heights, currently attends a low-tuition company affiliated school in the city. Aside from being part of the Inter-Knot subforum Spook Shack, she's not affiliated with any other groups — though in New Eridu, such forums aren't typically seen as formal organizations, and are, instead, more like hobby clubs.",
         "image": "images/zenlessZoneZero/mainImages/yudzuha_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/yudzuha_side.webp",
         "demoVideo": "",
-        "region": "The Hut of Nightmares"
+        "region": "Spook Shack"
     }
 ]
