@@ -664,11 +664,167 @@ header {
     color: var(--text-secondary-color);
 }
 
+/* --- PAGE 4: MUSIC --- */
+#music-page {
+    flex-direction: column;
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #4a3275, #2c1a4c);
+}
+
+#music-main-view, #music-album-view {
+    width: 100%;
+}
+
+.music-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.music-header h1 {
+    font-family: 'Nexa', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.music-main-icon {
+    width: 60px;
+    height: 60px;
+    fill: var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.popular-tracks-section h2, .albums-section h2 {
+    font-family: 'Nexa', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.popular-tracks-list .track-item {
+    display: grid;
+    grid-template-columns: 40px 60px 1fr auto;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.popular-tracks-list .track-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.popular-tracks-list .track-number {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--text-secondary-color);
+    text-align: center;
+}
+
+.popular-tracks-list .track-cover-sm {
+    width: 45px;
+    height: 45px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.popular-tracks-list .track-title {
+    font-weight: bold;
+}
+
+.popular-tracks-list .track-artist {
+    color: var(--text-secondary-color);
+}
+
+.popular-tracks-list .track-duration {
+    font-variant-numeric: tabular-nums;
+    color: var(--text-secondary-color);
+}
+
+.album-carousel-container {
+    position: relative;
+}
+
+.album-carousel {
+    overflow: hidden;
+}
+
+.album-carousel-track {
+    display: flex;
+    gap: 2rem;
+    transition: transform 0.5s ease;
+}
+
+.album-card {
+    cursor: pointer;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    flex-shrink: 0;
+    width: 220px; /* Example width */
+}
+
+.album-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.album-card img {
+    width: 100%;
+    display: block;
+}
+
+.album-card-info {
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.album-card-title {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.album-card-artist {
+    color: var(--text-secondary-color);
+    font-size: 0.9rem;
+}
+
+.carousel-nav {position: absolute;top: 50%;transform: translateY(-50%);background-color: rgba(0,0,0,0.5);border: none;color: white;font-size: 2rem;cursor: pointer;z-index: 10;border-radius: 50%;width: 50px;height: 50px;display: flex;justify-content: center;align-items: center;}
+
+.carousel-nav.prev {
+    left: -25px;
+}
+
+.carousel-nav.next {
+    right: -25px;
+}
+
+.carousel-nav:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+
+
 /* --- VIDEO MODAL --- */
 .video-modal {
     display: none;
     position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: 1000;
     justify-content: center;
     align-items: center;
@@ -676,15 +832,16 @@ header {
 .video-modal.active {
     display: flex;
 }
-
 .video-modal-overlay {
     position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(8px);
     cursor: pointer;
 }
-
 .video-modal-content {
     position: relative;
     z-index: 1001;
@@ -698,7 +855,6 @@ header {
     width: 100%;
     height: 100%;
 }
-
 .close-video-btn {
     position: absolute;
     top: -45px;

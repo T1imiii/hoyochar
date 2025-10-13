@@ -1,52 +1,54 @@
-# Blueprint: Hoyoverse Character & News Hub
+# Blueprint: Hoyoverse Character and Music Explorer
 
-## 1. Project Overview
+## Overview
 
-This project is a modern, single-page web application designed for fans of Hoyoverse games (Genshin Impact, Honkai Star Rail, Zenless Zone Zero). It provides a rich, interactive experience for exploring characters from each game and staying updated with the latest news via a live feed from a VKontakte group. The application is built with vanilla HTML, CSS, and JavaScript, emphasizing modern design principles, dynamic UI, and responsiveness.
+This application serves as a comprehensive guide to the characters from Hoyoverse's popular games: Genshin Impact, Honkai Star Rail, and Zenless Zone Zero. It also features a dedicated section for the music from these games, allowing users to browse albums and listen to popular tracks.
 
----
+## Project Outline
 
-## 2. Core Application Pages
+### Style and Design
 
-The application is structured into three main pages:
+*   **Theme:** Modern, dark theme with purple accents, inspired by the Hoyoverse aesthetic.
+*   **Layout:** Single-page application with distinct sections for Home, Characters, and Music.
+*   **Typography:** Clean, sans-serif fonts for readability.
+*   **Imagery:** High-quality character art and album covers.
+*   **Interactivity:** Smooth transitions between pages, interactive character cards, and a persistent music player.
 
-### **HOME Page**
-*   **Purpose:** Serves as the landing page, offering a visually engaging introduction to the Hoyoverse universe.
-*   **Layout:** Features a full-screen background and centered content.
-*   **Content:**
-    *   A prominent headline: "Исследуй миры Hoyoverse" (Explore the worlds of Hoyoverse).
-    *   A brief introductory paragraph about the site's purpose.
-    *   A "Начать просмотр" (Start Browsing) button that navigates the user to the character browser.
+### Features
 
-### **CHARACTERS Page**
-*   **Purpose:** The central feature of the application, allowing users to browse and learn about characters from the different games.
-*   **Layout:** A sophisticated three-column design:
-    1.  **Left Sidebar:** A vertically scrollable list of character cards. Each card shows a small image and the character's name. This list is filterable by the selected game and region.
-    2.  **Center Content:** The main view area that displays the currently selected character in detail. It includes a large character image, their name, a multi-paragraph description, and a button to watch a demo video (if available).
-    3.  **Right Sidebar:** A vertical navigation bar that allows users to select a game (Genshin Impact, Honkai Star Rail, Zenless Zone Zero) and then filter characters by their in-game region.
-*   **Dynamic Theming:** A key visual feature where the UI's accent colors, glows, and shadows dynamically adapt based on the dominant colors of the selected character's main image, creating a unique and immersive theme for each hero.
+*   **Home Page:** A welcoming landing page with a brief introduction to the site.
+*   **Characters Page:**
+    *   Filter by game (Genshin Impact, Honkai Star Rail, Zenless Zone Zero).
+    *   Character grid with portraits.
+    *   Detailed character view upon selection, including:
+        *   Full-size character image.
+        *   Character description.
+        *   Demo video.
+*   **Music Page:**
+    *   **Popular Tracks:** A list of the top 5 most popular tracks.
+    *   **Album Carousel:** A horizontally scrollable list of albums.
+    *   **Album Detail View:** Displays album cover, information, and tracklist.
+    *   **Persistent Audio Player:** Appears when a track is played, with controls for play/pause, and track information.
 
-### **NEWS Page**
-*   **Purpose:** To provide users with the latest news and updates.
-*   **Layout:** A single, scrollable column that displays a feed of news posts.
-*   **Content:** Posts are fetched in real-time from a specified VKontakte (VK) group. The feed displays the post text and any attached images.
-*   **Style:** Each post is formatted as a distinct "card" with a clean, modern aesthetic that matches the overall design of the application.
+## Current Task: Implement Audio Playback Functionality
 
----
+**Plan:**
 
-## 3. Features & Functionality
+1.  **`index.html` Modification:**
+    *   Add the HTML structure for a persistent audio player at the bottom of the page. This will include an `<audio>` tag and UI elements for controls and track info.
 
-*   **Multi-Page Navigation:** Seamless navigation between the "HOME," "CHARACTERS," and "NEWS" pages without page reloads.
-*   **Multi-Game & Regional Filtering:** The character browser is intuitively organized by game and further by in-game regions, allowing users to easily find specific characters.
-*   **Dynamic Character Loading:** All character data (names, descriptions, images, video links) is loaded asynchronously from local JSON files (`characters.json`, `honkai_star_rail.json`, `zenless_zone_zero.json`), ensuring the app is fast and easily updatable.
-*   **Interactive Character Switching:** Users can fluidly switch between characters by scrolling through the list or clicking on a specific card. The transition is smooth, with loading animations to handle image fetching.
-*   **Video Modal:** A pop-up (modal) window allows users to watch character demonstration videos without leaving the page.
-*   **VKontakte Integration:** The "NEWS" page utilizes the VK API to display a live feed of posts directly from a community group.
-*   **Responsive Design:** The layout intelligently adapts to various screen sizes, ensuring a consistent and user-friendly experience on both desktop and mobile devices.
-*   **Visual Polish:** The UI incorporates modern design elements like gradients, drop shadows, and subtle animations to create a visually appealing and premium feel.
+2.  **`style.css` Modification:**
+    *   Add CSS to style the new audio player, ensuring it is visually appealing and fixed to the bottom of the screen.
 
----
+3.  **`main.js` Modifications:**
+    *   Create new DOM element selectors for the audio player.
+    *   Implement a `playTrack` function to load and play a selected track.
+    *   Add event listeners to the play/pause button to control audio playback.
+    *   Attach event listeners to all track items (in popular lists and album views) to trigger the `playTrack` function on click.
+    *   Update the player UI with the current track's metadata (title, artist, cover).
 
-## 4. Current Development Plan
+**Actionable Steps:**
 
-*There are no active development plans. The project is in a complete state based on the last set of implemented features.*
+1.  **Modify `index.html`:** Add the HTML for the audio player.
+2.  **Modify `style.css`:** Add styles for the audio player.
+3.  **Modify `main.js`:** Implement the JavaScript logic for audio playback.

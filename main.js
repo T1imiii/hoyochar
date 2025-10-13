@@ -23,6 +23,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeVideoBtn = document.querySelector('.close-video-btn');
     const videoPlayer = videoModal.querySelector('video');
 
+    // Music Page Elements
+    const musicPage = document.getElementById('music-page');
+    const musicMainView = document.getElementById('music-main-view');
+    const musicAlbumView = document.getElementById('music-album-view');
+    const popularTracksList = document.querySelector('.popular-tracks-list');
+    const albumCarouselTrack = document.querySelector('.album-carousel-track');
+    const prevAlbumBtn = document.querySelector('.carousel-nav.prev');
+    const nextAlbumBtn = document.querySelector('.carousel-nav.next');
+    const albumDetailsContent = document.querySelector('.album-details-content');
+    const backToMusicMainBtn = document.querySelector('.back-to-music-main');
+
+
     // --- STATE VARIABLES ---
     let activeCharacterIndex = 0;
     let isScrolling = false;
@@ -31,6 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentGame = 'characters';
     const gameDataCache = {};
     let newsLoaded = false;
+    let musicLoaded = false;
+    let musicData = {};
 
     const gameLogos = {
         'characters': 'images/genshin_logo.png',
@@ -72,6 +86,9 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (targetPageId === 'news-page') {
             const newsLink = document.querySelector('.top-nav a[data-target="news"]');
             if(newsLink) newsLink.classList.add('active');
+        } else if (targetPageId === 'music-page') {
+            const musicLink = document.querySelector('.top-nav a[data-target="music"]');
+            if(musicLink) musicLink.classList.add('active');
         }
 
         updateGameLogo(game);
@@ -85,6 +102,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         if (targetPageId === 'news-page') {
             initializeNewsPage();
+        }
+        if (targetPageId === 'music-page') {
+            initializeMusicPage();
         }
     }
 
@@ -232,6 +252,106 @@ document.addEventListener('DOMContentLoaded', () => {
         newsFeedEl.innerHTML = feedHTML;
     }
 
+    // --- MUSIC PAGE LOGIC ---
+    async function initializeMusicPage() {
+        if (musicLoaded) return;
+        try {
+            const response = await fetch('./music.json');
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            musicData = await response.json();
+            renderMainMusicView();
+            musicLoaded = true;
+        } catch (error) {
+            console.error('Could not initialize music page:', error);
+            musicPage.innerHTML = `<p>Error loading music data.</p>`;
+        }
+    }
+
+    function renderMainMusicView() {
+        // Popular Tracks
+        const popularTracks = musicData.popularTracks.sort((a, b) => a.popularity - b.popularity).slice(0, 5);
+        popularTracksList.innerHTML = popularTracks.map((track, index) => `
+            <div class="track-item" data-album-id="${track.albumId}" data-track-index="${track.trackIndex}">
+                <span class="track-number">${index + 1}</span>
+                <img src="${track.cover}" alt="${track.title}" class="track-cover-sm">
+                <div class="track-details">
+                    <p class="track-title">${track.title}</p>
+                </div>
+            </div>
+        `).join('');
+
+        // Albums
+        albumCarouselTrack.innerHTML = musicData.albums.map(album => `
+            <div class="album-card" data-album-id="${album.id}">
+                <img src="${album.cover}" alt="${album.title}">
+                <div class="album-card-info">
+                    <p class="album-card-title">${album.title}</p>
+                    <p class="album-card-artist">${album.artist}</p>
+                </div>
+            </div>
+        `).join('');
+
+        musicMainView.style.display = 'block';
+        musicAlbumView.style.display = 'none';
+    }
+
+    function renderAlbumView(albumId) {
+        const album = musicData.albums.find(a => a.id === albumId);
+        if (!album) return;
+
+        let tracksHTML = album.tracks.map((track, index) => `
+            <div class="track-item" data-album-id="${album.id}" data-track-index="${index}">
+                <span class="track-number">${index + 1}</span>
+                <div class="track-details">
+                    <p class="track-title">${track.title}</p>
+                    ${track.instrumental ? '<span class="track-instrumental">Instrumental</span>' : ''}
+                </div>
+                <span class="track-duration">${track.duration}</span>
+            </div>
+        `).join('');
+
+        albumDetailsContent.innerHTML = `
+            <div class="album-header-info">
+                <img src="${album.cover}" alt="${album.title}" class="album-cover-large">
+                <div class="album-meta">
+                    <h1>${album.title}</h1>
+                    <p>${album.year} - ${album.artist}</p>
+                    <p>${album.tracks.length} tracks</p>
+                    <button class="play-album-btn">
+                        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        Play
+                    </button>
+                </div>
+            </div>
+            <div class="album-tracks-list">
+                ${tracksHTML}
+            </div>
+        `;
+
+        musicMainView.style.display = 'none';
+        musicAlbumView.style.display = 'block';
+    }
+
+    // Carousel Logic
+    let currentTranslate = 0;
+    const cardWidth = 240; // width (220) + gap (20)
+
+    nextAlbumBtn.addEventListener('click', () => {
+        const trackWidth = albumCarouselTrack.scrollWidth;
+        const containerWidth = albumCarouselTrack.parentElement.offsetWidth;
+        if (currentTranslate > -(trackWidth - containerWidth)) {
+            currentTranslate -= cardWidth;
+        }
+        albumCarouselTrack.style.transform = `translateX(${currentTranslate}px)`;
+    });
+
+    prevAlbumBtn.addEventListener('click', () => {
+        if (currentTranslate < 0) {
+            currentTranslate += cardWidth;
+        }
+        albumCarouselTrack.style.transform = `translateX(${currentTranslate}px)`;
+    });
+
     // --- VIDEO MODAL LOGIC ---
     function openVideoModal(src) {
         if (src) { videoPlayer.src = src; videoModal.classList.add('active'); videoPlayer.play(); }
@@ -368,6 +488,18 @@ document.addEventListener('DOMContentLoaded', () => {
     videoModalOverlay.addEventListener('click', closeVideoModal);
     window.addEventListener('resize', updateNavIndicator);
     
+    musicPage.addEventListener('click', (e) => {
+        const albumCard = e.target.closest('.album-card');
+        if (albumCard) {
+            renderAlbumView(albumCard.dataset.albumId);
+        }
+    });
+
+    backToMusicMainBtn.addEventListener('click', () => {
+        musicMainView.style.display = 'block';
+        musicAlbumView.style.display = 'none';
+    });
+
     // Initial setup
     switchPage('home-page');
 });

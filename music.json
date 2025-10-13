@@ -1,0 +1,71 @@
+
+{
+  "albums": [
+    {
+      "id": "album-gi-long-way-home",
+      "title": "Genshin Impact - The Long Way Home",
+      "artist": "HOYO-MiX",
+      "year": "2025",
+      "cover": "images/honkaiStarRail/mainImages/aheron_main.webp",
+      "tracks": [
+        { "title": "The Long Way Home", "instrumental": true, "duration": "3:34", "filePath": "music/the_long_way_home.mp3" },
+        { "title": "Genshin Impact's 5th Anniversary Theme Song: Chinese Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_cn.mp3" },
+        { "title": "Genshin Impact's 5th Anniversary Theme Song: English Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_en.mp3" }
+      ]
+    },
+    {
+      "id": "album-gi-fountain-of-belleau",
+      "title": "Genshin Impact - Fountain of Belleau",
+      "artist": "HOYO-MiX",
+      "year": "2024",
+      "cover": "images/genshinImpact/mainImages/furina_main.webp",
+       "tracks": [
+        { "title": "The Long Way Home", "instrumental": true, "duration": "3:34", "filePath": "music/the_long_way_home.mp3" },
+        { "title": "Genshin Impact's 5th Anniversary Theme Song: Chinese Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_cn.mp3" },
+        { "title": "Genshin Impact's 5th Anniversary Theme Song: English Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_en.mp3" }
+      ]
+    },
+    {
+      "id": "album-zzz-limit-break",
+      "title": "绝区零 | 极限突破",
+      "artist": "HOYO-MiX",
+      "year": "2024",
+      "cover": "images/zenlessZoneZero/mainImages/ben_main.webp",
+       "tracks": [
+        { "title": "The Long Way Home", "instrumental": true, "duration": "3:34", "filePath": "music/the_long_way_home.mp3" },
+        { "title": "Genshin Impact's 5th Anniversary Theme Song: Chinese Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_cn.mp3" },
+        { "title": "Genshin Impact's 5th Anniversary Theme Song: English Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_en.mp3" }
+      ]
+    },
+    {
+      "id": "album-hsr-stars-align",
+      "title": "Stars Align",
+      "artist": "HOYO-MiX",
+      "year": "2023",
+      "cover": "images/honkaiStarRail/mainImages/bailu_main.webp",
+       "tracks": [
+        { "title": "The Long Way Home", "instrumental": true, "duration": "3:34", "filePath": "music/the_long_way_home.mp3" },
+        { "title": "Genshin Impact's 5th Anniversary Theme Song: Chinese Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_cn.mp3" },
+        { "title": "Genshin Impact's 5th Anniversary Theme Song: English Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_en.mp3" }
+      ]
+    },
+    {
+      "id": "album-hsr-had-i-not-seen-the-sun",
+      "title": "Had I Not Seen the Sun",
+      "artist": "HOYO-MiX",
+      "year": "2024",
+      "cover": "images/honkaiStarRail/mainImages/blade_main.webp",
+       "tracks": [
+        { "title": "The Long Way Home", "instrumental": true, "duration": "3:34", "filePath": "music/the_long_way_home.mp3" },
+        { "title": "Genshin Impact's 5th Anniversary Theme Song: Chinese Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_cn.mp3" },
+        { "title": "Genshin Impact's 5th Anniversary Theme Song: English Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_en.mp3" }
+      ]
+    }
+  ],
+  "popularTracks": [
+    { "albumId": "album-gi-long-way-home", "trackIndex": 0, "title": "Burning Desires", "cover": "images/genshinImpact/mainImages/arlekino_main.webp", "popularity": 1 },
+    { "albumId": "album-zzz-limit-break", "trackIndex": 0, "title": "A Dramatic Irony", "cover": "images/honkaiStarRail/mainImages/avanturin_main.webp", "popularity": 2 },
+    { "albumId": "album-hsr-had-i-not-seen-the-sun", "trackIndex": 0, "title": "Flares of the Blazing Sun", "cover": "images/honkaiStarRail/mainImages/aheron_main.webp", "popularity": 3 },
+    { "albumId": "album-hsr-stars-align", "trackIndex": 0, "title": "WHITE NIGHT", "cover": "images/honkaiStarRail/mainImages/voskresenie_main.webp", "popularity": 4 }
+  ]
+}
