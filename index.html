@@ -6,6 +6,7 @@
     <title>Hoyoverse</title>
     <link href="https://api.fontshare.com/v2/css?f[]=nexa@400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="music.css">
 </head>
 <body>
     <header>
@@ -68,30 +69,46 @@
             </section>
 
             <!-- Page 3: MUSIC -->
-            <section id="music-page" class="page">
-                <div id="music-main-view">
-                    <div class="music-header">
-                        <svg class="music-main-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 16.5c-3.58 0-6.5-2.92-6.5-6.5S8.42 5.5 12 5.5s6.5 2.92 6.5 6.5-2.92 6.5-6.5 6.5zM10 16.5l6-4.5-6-4.5v9z"/></svg>
-                        <h1>Hoyo-Sound</h1>
+           <section id="music-page" class="page">
+                <div class="music-content">
+
+                    <div class="music-left-panel">
+                        <h2>Popular Tracks</h2>
+                        <div class="track-list"></div>
+                        <h2 class="albums-title">Albums</h2>
+                        <div class="album-list"></div>
                     </div>
-                    <div class="popular-tracks-section">
-                        <h2>Popular tracks</h2>
-                        <div class="popular-tracks-list"></div>
-                    </div>
-                    <div class="albums-section">
-                        <h2>Albums</h2>
-                        <div class="album-carousel-container">
-                            <button class="carousel-nav prev">&lt;</button>
-                            <div class="album-carousel">
-                                <div class="album-carousel-track"></div>
+
+                    <div class="music-right-panel">
+                        <div class="music-player">
+                            <div class="player-artwork">
+                                <img src="images/hoyochar_logo.png" alt="Track Artwork" class="track-img-player">
                             </div>
-                            <button class="carousel-nav next">&gt;</button>
+                            <div class="player-info">
+                                <h3 class="track-title-player">Select a track</h3>
+                                <p class="track-artist-player">to start listening</p>
+                            </div>
+                            <div class="player-controls">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <div class="time-container">
+                                    <span class="current-time">0:00</span>
+                                    <span class="total-time">0:00</span>
+                                </div>
+                                <div class="buttons-container">
+                                    <button class="prev-btn"><img src="images/previous.svg" alt="Previous"></button>
+                                    <button class="play-btn"><img src="images/play.svg" alt="Play"></button>
+                                    <button class="next-btn"><img src="images/next.svg" alt="Next"></button>
+                                </div>
+                            </div>
+                            <div class="volume-controls">
+                                <img src="images/volume.svg" alt="Volume" class="volume-icon">
+                                <div class="volume-bar">
+                                    <div class="volume-progress"></div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div id="music-album-view" style="display: none;">
-                     <button class="back-to-music-main">&lt; Back to all albums</button>
-                    <div class="album-details-content">
                     </div>
                 </div>
             </section>
@@ -112,37 +129,7 @@
         </div>
     </div>
 
-    <!-- Audio Player -->
-<div id="audio-player" class="audio-player hidden">
-    <audio id="audio-element"></audio>
-    <div class="player-left">
-        <img src="" alt="Album Cover" class="player-cover">
-        <div class="player-track-info">
-            <p class="player-title"></p>
-            <p class="player-artist"></p>
-        </div>
-    </div>
-    <div class="player-center">
-        <div class="player-buttons">
-            <button class="prev-track-btn"><svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg></button>
-            <button class="play-pause-btn"><svg class="play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg><svg class="pause-icon" viewBox="0 0 24 24" style="display:none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg></button>
-            <button class="next-track-btn"><svg viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg></button>
-        </div>
-        <div class="player-progress-container">
-            <span class="current-time">0:00</span>
-            <input type="range" class="progress-bar" value="0" min="0" max="100">
-            <span class="total-time">0:00</span>
-        </div>
-    </div>
-    <div class="player-right">
-        <div class="volume-control">
-            <svg viewBox="0 0 24 24" class="volume-icon"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
-            <input type="range" class="volume-slider" min="0" max="1" step="0.01" value="1">
-        </div>
-    </div>
-</div>
-
-
+    <script src="music.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

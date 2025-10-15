@@ -1,71 +1,122 @@
-
 {
-  "albums": [
-    {
-      "id": "album-gi-long-way-home",
-      "title": "Genshin Impact - The Long Way Home",
-      "artist": "HOYO-MiX",
-      "year": "2025",
-      "cover": "images/honkaiStarRail/mainImages/aheron_main.webp",
-      "tracks": [
-        { "title": "The Long Way Home", "instrumental": true, "duration": "3:34", "filePath": "music/the_long_way_home.mp3" },
-        { "title": "Genshin Impact's 5th Anniversary Theme Song: Chinese Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_cn.mp3" },
-        { "title": "Genshin Impact's 5th Anniversary Theme Song: English Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_en.mp3" }
-      ]
-    },
-    {
-      "id": "album-gi-fountain-of-belleau",
-      "title": "Genshin Impact - Fountain of Belleau",
-      "artist": "HOYO-MiX",
-      "year": "2024",
-      "cover": "images/genshinImpact/mainImages/furina_main.webp",
-       "tracks": [
-        { "title": "The Long Way Home", "instrumental": true, "duration": "3:34", "filePath": "music/the_long_way_home.mp3" },
-        { "title": "Genshin Impact's 5th Anniversary Theme Song: Chinese Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_cn.mp3" },
-        { "title": "Genshin Impact's 5th Anniversary Theme Song: English Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_en.mp3" }
-      ]
-    },
-    {
-      "id": "album-zzz-limit-break",
-      "title": "绝区零 | 极限突破",
-      "artist": "HOYO-MiX",
-      "year": "2024",
-      "cover": "images/zenlessZoneZero/mainImages/ben_main.webp",
-       "tracks": [
-        { "title": "The Long Way Home", "instrumental": true, "duration": "3:34", "filePath": "music/the_long_way_home.mp3" },
-        { "title": "Genshin Impact's 5th Anniversary Theme Song: Chinese Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_cn.mp3" },
-        { "title": "Genshin Impact's 5th Anniversary Theme Song: English Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_en.mp3" }
-      ]
-    },
-    {
-      "id": "album-hsr-stars-align",
-      "title": "Stars Align",
-      "artist": "HOYO-MiX",
-      "year": "2023",
-      "cover": "images/honkaiStarRail/mainImages/bailu_main.webp",
-       "tracks": [
-        { "title": "The Long Way Home", "instrumental": true, "duration": "3:34", "filePath": "music/the_long_way_home.mp3" },
-        { "title": "Genshin Impact's 5th Anniversary Theme Song: Chinese Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_cn.mp3" },
-        { "title": "Genshin Impact's 5th Anniversary Theme Song: English Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_en.mp3" }
-      ]
-    },
-    {
-      "id": "album-hsr-had-i-not-seen-the-sun",
-      "title": "Had I Not Seen the Sun",
-      "artist": "HOYO-MiX",
-      "year": "2024",
-      "cover": "images/honkaiStarRail/mainImages/blade_main.webp",
-       "tracks": [
-        { "title": "The Long Way Home", "instrumental": true, "duration": "3:34", "filePath": "music/the_long_way_home.mp3" },
-        { "title": "Genshin Impact's 5th Anniversary Theme Song: Chinese Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_cn.mp3" },
-        { "title": "Genshin Impact's 5th Anniversary Theme Song: English Version", "instrumental": false, "duration": "3:34", "filePath": "music/5th_anniversary_en.mp3" }
-      ]
-    }
-  ],
-  "popularTracks": [
-    { "albumId": "album-gi-long-way-home", "trackIndex": 0, "title": "Burning Desires", "cover": "images/genshinImpact/mainImages/arlekino_main.webp", "popularity": 1 },
-    { "albumId": "album-zzz-limit-break", "trackIndex": 0, "title": "A Dramatic Irony", "cover": "images/honkaiStarRail/mainImages/avanturin_main.webp", "popularity": 2 },
-    { "albumId": "album-hsr-had-i-not-seen-the-sun", "trackIndex": 0, "title": "Flares of the Blazing Sun", "cover": "images/honkaiStarRail/mainImages/aheron_main.webp", "popularity": 3 },
-    { "albumId": "album-hsr-stars-align", "trackIndex": 0, "title": "WHITE NIGHT", "cover": "images/honkaiStarRail/mainImages/voskresenie_main.webp", "popularity": 4 }
-  ]
+    "popularTracks": [
+        {
+            "albumId": "album_long_way",
+            "trackIndex": 0,
+            "popularity": 100
+        },
+        {
+            "albumId": "album_furyon",
+            "trackIndex": 0,
+            "popularity": 95
+        },
+        {
+            "albumId": "album_wonderland_trickery",
+            "trackIndex": 0,
+            "popularity": 98
+        },
+        {
+            "albumId": "album_starfire",
+            "trackIndex": 0,
+            "popularity": 90
+        },
+        {
+            "albumId": "album_celestia",
+            "trackIndex": 2,
+            "popularity": 88
+        },
+        {
+            "albumId": "album_celestia",
+            "trackIndex": 0,
+            "popularity": 85
+        }
+    ],
+    "albums": [
+        {
+            "id": "album_long_way",
+            "title": "Genshin Impact - The Long Way Home",
+            "artist": "HOYO-MiX",
+            "year": "2025",
+            "cover": "music/music_images/Genshin Impact - The Long Way Home.jpg",
+            "tracks": [
+                {
+                    "title": "回家的路",
+                    "duration": "2:52",
+                    "url": "music/HOYO-MiX - 回家的路 (Genshin Impact's 5th Anniversary Theme Song- Chinese Version).mp3"
+                },
+                {
+                    "title": "The Long Way Home",
+                    "duration": "2:52",
+                    "url": ""
+                },
+                {
+                    "title": "The Long Way Home (Instrumental)",
+                    "duration": "2:52",
+                    "url": "music/HOYO-MiX - The Long Way Home (Instrumental).mp3"
+                }
+            ]
+        },
+        {
+            "id": "album_furyon",
+            "title": "FURYON",
+            "artist": "Sān-Z, HOYO-MiX, Alaina Cross",
+            "year": "2025",
+            "cover": "music/music_images/FURYON.jpg",
+            "tracks": [
+                {
+                    "title": "FURYON",
+                    "duration": "3:16",
+                    "url": "music/Sān-Z - FURYON.mp3"
+                },
+                {
+                    "title": "FURYON (伴奏)",
+                    "duration": "3:16",
+                    "url": "music/Sān-Z - FURYON (伴奏).mp3"
+                }
+            ]
+        },
+        {
+            "id": "album_wonderland_trickery",
+            "title": "Wonderland Trickery",
+            "artist": "Sān-Z, HOYO-MiX",
+            "year": "2025",
+            "cover": "music/music_images/Wonderland Trickery.jpg",
+            "tracks": [
+                {
+                    "title": "Wonderland Trickery",
+                    "duration": "3:19",
+                    "url": "music/Sān-Z - Wonderland Trickery.mp3"
+                },
+                {
+                    "title": "Wonderland Trickery (Instrumental)",
+                    "duration": "3:19",
+                    "url": "music/Sān-Z - Wonderland Trickery (Instrumental).mp3"
+                }
+            ]
+        },
+        {
+            "id": "album_celestia",
+            "title": "Songs of Celestia",
+            "artist": "Venti",
+            "year": "2020",
+            "cover": "images/genshinImpact/mainImages/venti_main.webp",
+            "tracks": [
+                {
+                    "title": "Bard's Tale",
+                    "duration": "2:10",
+                    "url": "music/MyinWo - MANDALA FUNK.mp3"
+                },
+                {
+                    "title": "Anemo's Embrace",
+                    "duration": "3:30",
+                    "url": "music/MyinWo - MANDALA FUNK.mp3"
+                },
+                {
+                    "title": "Whispers of the Wind",
+                    "duration": "3:05",
+                    "url": "music/MyinWo - MANDALA FUNK.mp3"
+                }
+            ]
+        }
+    ]
 }

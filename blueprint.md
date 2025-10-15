@@ -1,54 +1,77 @@
-# Blueprint: Hoyoverse Character and Music Explorer
+
+# Blueprint
 
 ## Overview
 
-This application serves as a comprehensive guide to the characters from Hoyoverse's popular games: Genshin Impact, Honkai Star Rail, and Zenless Zone Zero. It also features a dedicated section for the music from these games, allowing users to browse albums and listen to popular tracks.
+This application is a multi-page website dedicated to the Hoyoverse games, featuring sections for characters from Genshin Impact, Honkai Star Rail, and Zenless Zone Zero. It also includes a functional music player with tracks and albums from the games.
 
-## Project Outline
+## Project Structure
 
-### Style and Design
+*   `index.html`: Main HTML file with the structure for all pages.
+*   `style.css`: Main stylesheet for general layout and character pages.
+*   `music.css`: Dedicated stylesheet for the music page.
+*   `main.js`: Main JavaScript file handling navigation and character page logic.
+*   `music.js`: Dedicated JavaScript file for all music player functionality, including track/album loading, playback controls, and UI updates.
+*   `*.json`: Data files for characters and music (`characters.json`, `honkai_star_rail.json`, `zenless_zone_zero.json`, `music.json`).
+*   `images/`: Folder containing all images for characters, logos, and UI elements.
+*   `music/`: Folder containing audio files.
 
-*   **Theme:** Modern, dark theme with purple accents, inspired by the Hoyoverse aesthetic.
-*   **Layout:** Single-page application with distinct sections for Home, Characters, and Music.
-*   **Typography:** Clean, sans-serif fonts for readability.
-*   **Imagery:** High-quality character art and album covers.
-*   **Interactivity:** Smooth transitions between pages, interactive character cards, and a persistent music player.
+## Implemented Features & Design
 
-### Features
+### General
+*   **Multi-page Navigation:** A top navigation bar allows users to switch between Home, Characters, Music, and News sections.
+*   **Dynamic Theme Engine:** The color scheme of the character page dynamically adapts based on the currently displayed character's main image.
+*   **Responsive Design:** The layout is designed to be functional across different screen sizes.
 
-*   **Home Page:** A welcoming landing page with a brief introduction to the site.
-*   **Characters Page:**
-    *   Filter by game (Genshin Impact, Honkai Star Rail, Zenless Zone Zero).
-    *   Character grid with portraits.
-    *   Detailed character view upon selection, including:
-        *   Full-size character image.
-        *   Character description.
-        *   Demo video.
-*   **Music Page:**
-    *   **Popular Tracks:** A list of the top 5 most popular tracks.
-    *   **Album Carousel:** A horizontally scrollable list of albums.
-    *   **Album Detail View:** Displays album cover, information, and tracklist.
-    *   **Persistent Audio Player:** Appears when a track is played, with controls for play/pause, and track information.
+### Home Page
+*   A visually appealing landing page with a background image and a call-to-action to start exploring the character sections.
 
-## Current Task: Implement Audio Playback Functionality
+### Character Pages
+*   **Game Selection:** Users can choose to view characters from Genshin Impact, Honkai Star Rail, or Zenless Zone Zero via a dropdown menu.
+*   **Region/Faction Filtering:** Characters can be filtered by their in-game region or faction using a side navigation bar.
+*   **Interactive Character Display:**
+    *   A vertical carousel of character cards.
+    *   A main view showing the selected character's artwork, name, and description.
+    *   Smooth animations and transitions between characters.
+    *   A background that changes to match the selected character.
+*   **Video Demos:** An option to watch a character's demonstration video in a modal window.
 
-**Plan:**
+### Music Page
+*   **Layout:** A two-column layout featuring a list of popular tracks and albums on the left, and a dedicated music player on the right.
+*   **Music Player:**
+    *   Displays artwork, title, and artist of the current track.
+    *   Controls for play/pause, next track, and previous track.
+    *   A draggable progress bar to seek through the track, showing current and total time.
+    *   A draggable volume control.
+*   **Track Lists:**
+    *   A "Popular Tracks" section for quick access to popular songs.
+    *   An "Albums" section, displayed as a grid.
+*   **Album Modal:**
+    *   Clicking an album opens a modal window.
+    *   The modal displays the album cover, details, and a full tracklist for that album.
+    *   Users can play the entire album or select individual tracks from the modal.
+*   **Dynamic Playlists:** The player's playlist updates based on whether the user is playing from the "Popular Tracks" list or a specific album.
 
-1.  **`index.html` Modification:**
-    *   Add the HTML structure for a persistent audio player at the bottom of the page. This will include an `<audio>` tag and UI elements for controls and track info.
+### News Page
+*   **VK Feed Integration:** Displays a live news feed from a specified VK.com group.
+*   **Rich Post Display:** Renders posts with text, images (in a grid layout), and basic engagement stats (likes, comments, reposts).
 
-2.  **`style.css` Modification:**
-    *   Add CSS to style the new audio player, ensuring it is visually appealing and fixed to the bottom of the screen.
+## Previous Plan (Completed)
 
-3.  **`main.js` Modifications:**
-    *   Create new DOM element selectors for the audio player.
-    *   Implement a `playTrack` function to load and play a selected track.
-    *   Add event listeners to the play/pause button to control audio playback.
-    *   Attach event listeners to all track items (in popular lists and album views) to trigger the `playTrack` function on click.
-    *   Update the player UI with the current track's metadata (title, artist, cover).
+1.  **Separate JS Logic:** Create a new `music.js` file to house all JavaScript functionality for the music page.
+2.  **Refactor `main.js`:** Remove all music-related code from `main.js` and adjust the `switchPage` function to call the initialization function from `music.js`.
+3.  **Update `index.html`:**
+    *   Refactor the HTML structure for the music page (`#music-page`) to a two-column layout (left panel for lists, right panel for the player).
+    *   Include the new `music.js` script.
+4.  **Implement Music Logic in `music.js`:**
+    *   Fetch music data from `music.json`.
+    *   Populate the "Popular Tracks" and "Albums" sections.
+    *   Implement full player controls (play, pause, next, previous).
+    *   Implement a draggable progress bar and volume control.
+    *   Create a modal view for displaying album tracklists.
+    *   Handle playlist management (switching between popular list and album lists).
+5.  **Update `music.css`:** Rewrite the CSS to style the new two-column layout, the player, the lists, and the album modal, ensuring a polished and modern look.
 
-**Actionable Steps:**
+## Current Plan
 
-1.  **Modify `index.html`:** Add the HTML for the audio player.
-2.  **Modify `style.css`:** Add styles for the audio player.
-3.  **Modify `main.js`:** Implement the JavaScript logic for audio playback.
+The application is now fully functional as per the last request. Ready for further instructions.
