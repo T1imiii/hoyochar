@@ -6,6 +6,7 @@
         "image": "images/genshinImpact/mainImages/raiden_shogun_main.webp",
         "cardImage": "images/genshinImpact/sideImages/raiden_shogun_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "INAZUMA"
     },
     {
@@ -14,6 +15,7 @@
         "image": "images/genshinImpact/mainImages/yae_miko_main.webp",
         "cardImage": "images/genshinImpact/sideImages/yae_miko_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "INAZUMA"
     },
     {
@@ -21,7 +23,8 @@
         "description": "Kamisato Ayaka, the Shirasagi Himegimi, is the daughter of the Kamisato Clan and a public figure of immense grace and nobility in Inazuma. Trained in the arts, swordsmanship, and etiquette from a young age, she is the epitome of elegance and is adored by the people.<br><br> As the face of the Yashiro Commission, she diligently works to maintain cultural affairs and mitigate the harsher effects of the Sakoku Decree on the common folk.",
         "image": "images/genshinImpact/mainImages/kamisato_ayaka_main.webp",
         "cardImage": "images/genshinImpact/sideImages/kamisato_ayaka_side.webp",
-        "demoVideo": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239045&hd=2&autoplay=1",
+        "videoTitle": "Kamisato Ayaka: Camellia in Winter Snow",
         "region": "INAZUMA"
     },
     {
@@ -30,6 +33,7 @@
         "image": "images/genshinImpact/mainImages/tiori_main.webp",
         "cardImage": "images/genshinImpact/sideImages/tiori_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "INAZUMA"
     },
     {
@@ -38,6 +42,7 @@
         "image": "images/genshinImpact/mainImages/itto_main.webp",
         "cardImage": "images/genshinImpact/sideImages/itto_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "INAZUMA"
     },
     {
@@ -46,6 +51,7 @@
         "image": "images/genshinImpact/mainImages/kamisato_ayato_main.webp",
         "cardImage": "images/genshinImpact/sideImages/kamisato_ayato_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "INAZUMA"
     },
     {
@@ -54,6 +60,7 @@
         "image": "images/genshinImpact/mainImages/sanganomiya_kokomi_main.webp",
         "cardImage": "images/genshinImpact/sideImages/kokomi_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "INAZUMA"
     },
     {
@@ -61,7 +68,8 @@
         "description": "Kaedehara Kazuha is a wandering samurai from a fallen Inazuman clan, now finding solace as a temporary member of Liyue's Crux Fleet. He is a calm, poetic soul with a deep connection to nature, able to hear the whispers of the wind and the rustling of leaves.<br><br> This connection allows him to live a life of serene freedom, untethered from worldly possessions and regrets, simply appreciating the beauty of the world as it comes.",
         "image": "images/genshinImpact/mainImages/kaedehara_kadzuha_main.webp",
         "cardImage": "images/genshinImpact/sideImages/kadzuha_side.webp",
-        "demoVideo": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239042&hd=2&autoplay=1",
+        "videoTitle": "Kaedehara Kazuha: Wandering Winds",
         "region": "INAZUMA"
     },
     {
@@ -70,6 +78,7 @@
         "image": "images/genshinImpact/mainImages/eemiya_main.webp",
         "cardImage": "images/genshinImpact/sideImages/eemiya_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "INAZUMA"
     },
     {
@@ -78,6 +87,7 @@
         "image": "images/genshinImpact/mainImages/midzuki_main.webp",
         "cardImage": "images/genshinImpact/sideImages/midzuki_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "INAZUMA"
     },
     {
@@ -85,7 +95,8 @@
         "description": "Zhongli presents himself as a knowledgeable and meticulous consultant for the Wangsheng Funeral Parlor, an expert on Liyue's history and traditions.<br><br> However, his true identity is that of Morax, the Geo Archon Rex Lapis, who has ruled over Liyue for over six millennia. After deciding to retire from his role as Archon, he faked his own death and now walks among his people as a mortal to observe the city's future.",
         "image": "images/genshinImpact/mainImages/chjun_li_main.webp",
         "cardImage": "images/genshinImpact/sideImages/chun_li_side.webp",
-        "demoVideo": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239033&hd=2&autoplay=1",
+        "videoTitle": "Zhongli: The Listener",
         "region": "LIYUE"
     },
     {
@@ -93,7 +104,8 @@
         "description": "Ganyu is a half-qilin, half-human adeptus who serves as the General Secretary of the Liyue Qixing.<br><br> Having lived for over 3,000 years, she fought alongside Rex Lapis in the Archon War and now acts as the crucial bureaucratic engine that keeps Liyue's complex commercial and administrative systems running smoothly. Her work is her life, a continued contract with the memory of her archon.",
         "image": "images/genshinImpact/mainImages/ganuy_main.webp",
         "cardImage": "images/genshinImpact/sideImages/ganui_side.webp",
-        "demoVideo": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239035&hd=2&autoplay=1",
+        "videoTitle": "Ganyu: Radiant Dreams",
         "region": "LIYUE"
     },
     {
@@ -102,6 +114,7 @@
         "image": "images/genshinImpact/mainImages/syan_yan_main.webp",
         "cardImage": "images/genshinImpact/sideImages/syan_un_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "LIYUE"
     },
     {
@@ -110,6 +123,7 @@
         "image": "images/genshinImpact/mainImages/bai_chju_main.webp",
         "cardImage": "images/genshinImpact/sideImages/bai_chu_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "LIYUE"
     },
     {
@@ -118,6 +132,7 @@
         "image": "images/genshinImpact/mainImages/syao_main.webp",
         "cardImage": "images/genshinImpact/sideImages/xiao_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "LIYUE"
     },
     {
@@ -126,6 +141,7 @@
         "image": "images/genshinImpact/mainImages/elan_main.webp",
         "cardImage": "images/genshinImpact/sideImages/elan_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "LIYUE"
     },
     {
@@ -133,7 +149,8 @@
         "description": "Hu Tao is the 77th Director of the Wangsheng Funeral Parlor, a position she holds with a bizarre mix of solemn duty and eccentric, prank-loving flair. <br><br>She is a bundle of contradictions: a poet of considerable skill who composes morbid rhymes, a serious businesswoman who chases potential clients with unsettling enthusiasm, and a philosopher of life and death who behaves like a mischievous child.",
         "image": "images/genshinImpact/mainImages/hu_tao_main.webp",
         "cardImage": "images/genshinImpact/sideImages/hu_tao_side.webp",
-        "demoVideo": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239037&hd=2&autoplay=1",
+        "videoTitle": "Hu Tao: Let the Living Beware",
         "region": "LIYUE"
     },
     {
@@ -142,6 +159,7 @@
         "image": "images/genshinImpact/mainImages/shen_he_main.webp",
         "cardImage": "images/genshinImpact/sideImages/shen_he_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "LIYUE"
     },
     {
@@ -149,7 +167,8 @@
         "description": "Keqing is the Yuheng of the Liyue Qixing, a hardworking and driven leader who is deeply skeptical of the need for divine intervention in human affairs. <br><br>She believes that humanity's future should be secured by human hands alone, through diligence, innovation, and careful planning. This initially put her at odds with the revered figure of Rex Lapis, whose annual directives she saw as a crutch.",
         "image": "images/genshinImpact/mainImages/ke_cin_main.webp",
         "cardImage": "images/genshinImpact/sideImages/ke_cin_side.webp",
-        "demoVideo": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239026&hd=2&autoplay=1",
+        "videoTitle": "Keqing: Yuheng of the Qixing",
         "region": "LIYUE"
     },
     {
@@ -157,7 +176,8 @@
         "description": "Qiqi is a zombie resurrected by the adepti, now working as an herb gatherer and assistant at Bubu Pharmacy in Liyue Harbor.<br><br> Due to the circumstances of her resurrection, she suffers from severe memory loss, requiring her to write everything down in her notebook to remember it. She moves and speaks slowly, with a quiet, monotone voice, and her emotional responses are often muted.",
         "image": "images/genshinImpact/mainImages/ci_ci_main.webp",
         "cardImage": "images/genshinImpact/sideImages/qi_qi_side.webp",
-        "demoVideo": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239025&hd=2&autoplay=1",
+        "videoTitle": "Qiqi: Icy Resurrection",
         "region": "LIYUE"
     },
     {
@@ -166,6 +186,7 @@
         "image": "images/genshinImpact/mainImages/jean_main.webp",
         "cardImage": "images/genshinImpact/sideImages/jean_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "MONSTADT"
     },
     {
@@ -174,6 +195,7 @@
         "image": "images/genshinImpact/mainImages/diluc_main.webp",
         "cardImage": "images/genshinImpact/sideImages/diluc_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "MONSTADT"
     },
     {
@@ -181,7 +203,8 @@
         "description": "Albedo is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius. <br><br>He is a synthetic human, created by the alchemist Rhinedottir, and possesses an intellect of unparalleled depth, focused on the art of Khemia and the secrets of life itself. His research is his primary drive, and he approaches the world with a calm, analytical, and often detached curiosity.",
         "image": "images/genshinImpact/mainImages/albedo_main.webp",
         "cardImage": "images/genshinImpact/sideImages/albedo_side.webp",
-        "demoVideo": "video/genshinImpact/albedo_demo.mp4",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239034&hd=2&autoplay=1",
+        "videoTitle": "Albedo Contemplation in Chalk",
         "region": "MONSTADT"
     },
     {
@@ -189,7 +212,8 @@
         "description": "Eula Lawrence is the Captain of the Knights of Favonius Reconnaissance Company and a scion of the once-tyrannical Lawrence Clan. <br><br>Due to her family's infamous history, she faces constant prejudice and suspicion from the people of Mondstadt. In response, she has developed a proud and aloof demeanor, often speaking of \"vengeance\" for even the slightest slights, though this is largely a facade to maintain her dignity.",
         "image": "images/genshinImpact/mainImages/eula_main.webp",
         "cardImage": "images/genshinImpact/sideImages/eula_side.webp",
-        "demoVideo": "video/genshinImpact/eula_demo.mp4",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239044&hd=2&autoplay=1",
+        "videoTitle": "Eula: Flickering Candlelight",
         "region": "MONSTADT"
     },
     {
@@ -197,7 +221,8 @@
         "description": "Klee is an energetic and explosive young girl, the daughter of the adventurous Alice and a member of the Knights of Favonius. <br><br>With an innocent and cheerful disposition, she views the world as her playground, often with disastrous consequences for the surrounding landscape. Her passion is for creating and detonating explosives, which she considers her \"treasures\" and \"jumpy dumpties\".",
         "image": "images/genshinImpact/mainImages/klee_main.webp",
         "cardImage": "images/genshinImpact/sideImages/klee_side.webp",
-        "demoVideo": "video/genshinImpact/klee_demo.mp4",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239030&hd=2&autoplay=1",
+        "videoTitle": "Klee: Da-Da Da",
         "region": "MONSTADT"
     },
     {
@@ -205,7 +230,8 @@
         "description": "Mona is a talented and prideful astrologist who came to Mondstadt to escape the demands of her master and to pursue her research in freedom. <br><br>She is incredibly knowledgeable in hydromancy and can read the fates in the stars with astonishing accuracy. She takes great pride in her craft and is never shy about proclaiming her own genius.",
         "image": "images/genshinImpact/mainImages/mona_main.webp",
         "cardImage": "images/genshinImpact/sideImages/mona_side.webp",
-        "demoVideo": "video/genshinImpact/mona_demo.mp4",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239024&hd=2&autoplay=1",
+        "videoTitle": "Mona: Fate and Destiny",
         "region": "MONSTADT"
     },
     {
@@ -213,7 +239,8 @@
         "description": "Venti is the mortal vessel of Barbatos, the Anemo Archon of Mondstadt. Despite his divine status, he presents himself as a carefree and whimsical bard, often found singing hymns to the wind or indulging in a bottle of wine. <br><br>He believes in a concept of freedom where the people rule themselves without a god's direct intervention, a philosophy that led him to establish the nation of Mondstadt as it is known today. However, this freedom comes with a deep sense of responsibility; he will awaken from his centuries-long slumber to protect his people from any existential threat, as he has done in the past.",
         "image": "images/genshinImpact/mainImages/venti_main.webp",
         "cardImage": "images/genshinImpact/sideImages/venti_side.webp",
-        "demoVideo": "video/genshinImpact/venti_demo.mp4",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239038&hd=2&autoplay=1",
+        "videoTitle": "Venti: A Bard's Business",
         "region": "MONSTADT"
     },
     {
@@ -222,6 +249,7 @@
         "image": "images/genshinImpact/mainImages/nahida_main.webp",
         "cardImage": "images/genshinImpact/sideImages/nahida_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "SUMERU"
     },
     {
@@ -230,6 +258,7 @@
         "image": "images/genshinImpact/mainImages/tignari_main.webp",
         "cardImage": "images/genshinImpact/sideImages/tignari_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "SUMERU"
     },
     {
@@ -238,6 +267,7 @@
         "image": "images/genshinImpact/mainImages/saino_main.webp",
         "cardImage": "images/genshinImpact/sideImages/syno_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "SUMERU"
     },
     {
@@ -246,6 +276,7 @@
         "image": "images/genshinImpact/mainImages/nilu_main.webp",
         "cardImage": "images/genshinImpact/sideImages/nilu_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "SUMERU"
     },
     {
@@ -254,6 +285,7 @@
         "image": "images/genshinImpact/mainImages/scaramucha_main.webp",
         "cardImage": "images/genshinImpact/sideImages/wanderer_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "SUMERU"
     },
     {
@@ -262,6 +294,7 @@
         "image": "images/genshinImpact/mainImages/dehiya_main.webp",
         "cardImage": "images/genshinImpact/sideImages/dehia_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "SUMERU"
     },
     {
@@ -270,6 +303,7 @@
         "image": "images/genshinImpact/mainImages/al_haitam_main.webp",
         "cardImage": "images/genshinImpact/sideImages/al_haitam_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "SUMERU"
     },
     {
@@ -278,6 +312,7 @@
         "image": "images/genshinImpact/mainImages/furina_main.webp",
         "cardImage": "images/genshinImpact/sideImages/furina_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "FONTAINE"
     },
     {
@@ -286,6 +321,7 @@
         "image": "images/genshinImpact/mainImages/nevilett_main.webp",
         "cardImage": "images/genshinImpact/sideImages/nevilette_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "FONTAINE"
     },
     {
@@ -294,6 +330,7 @@
         "image": "images/genshinImpact/mainImages/lini_main.webp",
         "cardImage": "images/genshinImpact/sideImages/lini_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "FONTAINE"
     },
     {
@@ -302,6 +339,7 @@
         "image": "images/genshinImpact/mainImages/rizly_main.webp",
         "cardImage": "images/genshinImpact/sideImages/rizli_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "FONTAINE"
     },
     {
@@ -310,6 +348,7 @@
         "image": "images/genshinImpact/mainImages/naviya_main.webp",
         "cardImage": "images/genshinImpact/sideImages/navia_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "FONTAINE"
     },
     {
@@ -318,6 +357,7 @@
         "image": "images/genshinImpact/mainImages/klorinda_main.webp",
         "cardImage": "images/genshinImpact/sideImages/klorinda_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "FONTAINE"
     },
     {
@@ -326,6 +366,7 @@
         "image": "images/genshinImpact/mainImages/sandzhvin_main.webp",
         "cardImage": "images/genshinImpact/sideImages/sindgvin_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "FONTAINE"
     },
     {
@@ -334,6 +375,7 @@
         "image": "images/genshinImpact/mainImages/emiliya_main.webp",
         "cardImage": "images/genshinImpact/sideImages/emilia_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "FONTAINE"
     },
     {
@@ -342,6 +384,7 @@
         "image": "images/genshinImpact/mainImages/escofie_main.webp",
         "cardImage": "images/genshinImpact/sideImages/escofier_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "FONTAINE"
     },
     {
@@ -350,6 +393,7 @@
         "image": "images/genshinImpact/mainImages/kinich_main.webp",
         "cardImage": "images/genshinImpact/sideImages/kinich_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "NATLAN"
     },
     {
@@ -358,6 +402,7 @@
         "image": "images/genshinImpact/mainImages/mualani_main.webp",
         "cardImage": "images/genshinImpact/sideImages/mualani_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "NATLAN"
     },
     {
@@ -366,6 +411,7 @@
         "image": "images/genshinImpact/mainImages/shilonen_main.webp",
         "cardImage": "images/genshinImpact/sideImages/shilonen_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "NATLAN"
     },
     {
@@ -374,6 +420,7 @@
         "image": "images/genshinImpact/mainImages/chaska_main.webp",
         "cardImage": "images/genshinImpact/sideImages/chaska_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "NATLAN"
     },
     {
@@ -382,6 +429,7 @@
         "image": "images/genshinImpact/mainImages/mavuika_main.webp",
         "cardImage": "images/genshinImpact/sideImages/mavuika_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "NATLAN"
     },
     {
@@ -390,6 +438,7 @@
         "image": "images/genshinImpact/mainImages/sitlali_main.webp",
         "cardImage": "images/genshinImpact/sideImages/citlali_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "NATLAN"
     },
     {
@@ -398,6 +447,7 @@
         "image": "images/genshinImpact/mainImages/varesa_main.webp",
         "cardImage": "images/genshinImpact/sideImages/varesa_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "NATLAN"
     },
     {
@@ -405,7 +455,8 @@
         "description": "Tartaglia, also known by his codename \"Childe\", is the Eleventh of the Fatui Harbingers, a battle-hardened warrior who thrives on conflict and the thrill of combat. He is the youngest member of the Harbingers, possessing a youthful, almost boyish enthusiasm that starkly contrasts with his deadly prowess on the battlefield. <br><br>He enjoys fishing, exploring, and spending time with his younger siblings, showing a tender, familial side that is completely separate from his identity as a Fatui enforcer.",
         "image": "images/genshinImpact/mainImages/tartaliya_main.webp",
         "cardImage": "images/genshinImpact/sideImages/tartaliya_side.webp",
-        "demoVideo": "",
+        "demoVideo": "https://vk.com.ru/video_ext.php?oid=-232798999&id=456239031&hd=2&autoplay=1",
+        "videoTitle": "Childe: A Letter to Snezhnaya",
         "region": "SNEZHNAYA"
     },
     {
@@ -414,6 +465,7 @@
         "image": "images/genshinImpact/mainImages/arlekino_main.webp",
         "cardImage": "images/genshinImpact/sideImages/arlekino_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "SNEZHNAYA"
     },
     {
@@ -422,6 +474,7 @@
         "image": "images/genshinImpact/mainImages/ineffa_main.webp",
         "cardImage": "images/genshinImpact/sideImages/ineffa_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "NOD-KRAI"
     },
     {
@@ -430,6 +483,7 @@
         "image": "images/genshinImpact/mainImages/flins_main.webp",
         "cardImage": "images/genshinImpact/sideImages/flins_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "NOD-KRAI"
     },
     {
@@ -438,6 +492,7 @@
         "image": "images/genshinImpact/mainImages/lauma_main.webp",
         "cardImage": "images/genshinImpact/sideImages/lauma_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "NOD-KRAI"
     }
 

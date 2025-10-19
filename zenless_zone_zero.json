@@ -6,6 +6,7 @@
         "image": "images/zenlessZoneZero/mainImages/nekomata_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/nekomata_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Cunning Hares"
     },
     {
@@ -14,6 +15,7 @@
         "image": "images/zenlessZoneZero/mainImages/nikol_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/nikol_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Cunning Hares"
     },
     {
@@ -22,6 +24,7 @@
         "image": "images/zenlessZoneZero/mainImages/billy_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/billy_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Cunning Hares"
     },
     {
@@ -30,6 +33,7 @@
         "image": "images/zenlessZoneZero/mainImages/enbi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/enbi_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Cunning Hares"
     },
     {
@@ -38,6 +42,7 @@
         "image": "images/zenlessZoneZero/mainImages/greis_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/greis_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Belobog Heavy Industries"
     },
     {
@@ -46,6 +51,7 @@
         "image": "images/zenlessZoneZero/mainImages/kolyada_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/kolyada_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Belobog Heavy Industries"
     },
     {
@@ -54,6 +60,7 @@
         "image": "images/zenlessZoneZero/mainImages/ben_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/ben_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Belobog Heavy Industries"
     },
     {
@@ -62,6 +69,7 @@
         "image": "images/zenlessZoneZero/mainImages/anton_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/anton_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Belobog Heavy Industries"
     },
     {
@@ -70,6 +78,7 @@
         "image": "images/zenlessZoneZero/mainImages/rina_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/rina_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Victoria Agency"
     },
     {
@@ -78,6 +87,7 @@
         "image": "images/zenlessZoneZero/mainImages/ellen_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/ellen_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Victoria Agency"
     },
     {
@@ -86,6 +96,7 @@
         "image": "images/zenlessZoneZero/mainImages/likaon_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/likaon_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Victoria Agency"
     },
     {
@@ -94,6 +105,7 @@
         "image": "images/zenlessZoneZero/mainImages/korin_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/korin_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Victoria Agency"
     },
     {
@@ -102,6 +114,7 @@
         "image": "images/zenlessZoneZero/mainImages/orfeya_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/orfeya_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Obol Squad"
     },
     {
@@ -110,6 +123,7 @@
         "image": "images/zenlessZoneZero/mainImages/sid_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/sid_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Obol Squad"
     },
     {
@@ -118,6 +132,7 @@
         "image": "images/zenlessZoneZero/mainImages/gashetka_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/gashetka_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Obol Squad"
     },
     {
@@ -126,6 +141,7 @@
         "image": "images/zenlessZoneZero/mainImages/solder_11_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/solder_11_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Obol Squad"
     },
     {
@@ -134,6 +150,7 @@
         "image": "images/zenlessZoneZero/mainImages/solder_0_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/solder_0_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Obol Squad"
     },
     {
@@ -142,6 +159,7 @@
         "image": "images/zenlessZoneZero/mainImages/asaba_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/asaba_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Section 6"
     },
     {
@@ -150,6 +168,7 @@
         "image": "images/zenlessZoneZero/mainImages/miyabi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/miyabi_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Section 6"
     },
     {
@@ -158,6 +177,7 @@
         "image": "images/zenlessZoneZero/mainImages/yanagi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/yanagi_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Section 6"
     },
     {
@@ -166,6 +186,7 @@
         "image": "images/zenlessZoneZero/mainImages/sokaku_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/sokaku_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Section 6"
     },
     {
@@ -174,6 +195,7 @@
         "image": "images/zenlessZoneZero/mainImages/cinui_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/cinui_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Team of the TAG"
     },
     {
@@ -182,6 +204,7 @@
         "image": "images/zenlessZoneZero/mainImages/chgu_uan_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/chgu_uan_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Team of the TAG"
     },
     {
@@ -190,6 +213,7 @@
         "image": "images/zenlessZoneZero/mainImages/jane_dou_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/jane_dou_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Team of the TAG"
     },
     {
@@ -198,6 +222,7 @@
         "image": "images/zenlessZoneZero/mainImages/set_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/set_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Team of the TAG"
     },
     {
@@ -206,6 +231,7 @@
         "image": "images/zenlessZoneZero/mainImages/laiter_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/laiter_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Sons of Calidon"
     },
     {
@@ -214,6 +240,7 @@
         "image": "images/zenlessZoneZero/mainImages/bernis_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/bernis_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Sons of Calidon"
     },
     {
@@ -222,6 +249,7 @@
         "image": "images/zenlessZoneZero/mainImages/cesar_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/cesar_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Sons of Calidon"
     },
     {
@@ -230,6 +258,7 @@
         "image": "images/zenlessZoneZero/mainImages/pulhra_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/pulhra_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Sons of Calidon"
     },
     {
@@ -238,6 +267,7 @@
         "image": "images/zenlessZoneZero/mainImages/piper_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/piper_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Sons of Calidon"
     },
     {
@@ -246,6 +276,7 @@
         "image": "images/zenlessZoneZero/mainImages/lusi_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/lusi_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Sons of Calidon"
     },
     {
@@ -254,6 +285,7 @@
         "image": "images/zenlessZoneZero/mainImages/evelin_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/evelin_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Stars of Lyra"
     },
     {
@@ -262,6 +294,7 @@
         "image": "images/zenlessZoneZero/mainImages/astra_yao_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/astra_yao_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Stars of Lyra"
     },
     {
@@ -270,6 +303,7 @@
         "image": "images/zenlessZoneZero/mainImages/hugo_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/hugo_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Mockingbirds"
     },
     {
@@ -278,6 +312,7 @@
         "image": "images/zenlessZoneZero/mainImages/vivian_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/vivian_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Mockingbirds"
     },
     {
@@ -286,6 +321,7 @@
         "image": "images/zenlessZoneZero/mainImages/isuan_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/isuan_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Yunkui Summit"
     },
     {
@@ -294,6 +330,7 @@
         "image": "images/zenlessZoneZero/mainImages/fufu_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/fufu_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Yunkui Summit"
     },
     {
@@ -302,6 +339,7 @@
         "image": "images/zenlessZoneZero/mainImages/pan_inhu_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/pan_inhu_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Yunkui Summit"
     },
     {
@@ -310,6 +348,7 @@
         "image": "images/zenlessZoneZero/mainImages/alice_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/alice_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Spook Shack"
     },
     {
@@ -318,6 +357,7 @@
         "image": "images/zenlessZoneZero/mainImages/yudzuha_main.webp",
         "cardImage": "images/zenlessZoneZero/sideImages/yudzuha_side.webp",
         "demoVideo": "",
+        "videoTitle": "",
         "region": "Spook Shack"
     }
 ]

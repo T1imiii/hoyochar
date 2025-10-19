@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const videoModal = document.getElementById('video-modal');
     const videoModalOverlay = document.querySelector('.video-modal-overlay');
     const closeVideoBtn = document.querySelector('.close-video-btn');
-    const videoPlayer = videoModal.querySelector('video');
+    const videoPlayerContainer = document.getElementById('video-player-container');
 
     // --- STATE VARIABLES ---
     let activeCharacterIndex = 0;
@@ -247,9 +247,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- VIDEO MODAL LOGIC ---
     function openVideoModal(src) {
-        if (src) { videoPlayer.src = src; videoModal.classList.add('active'); videoPlayer.play(); }
+        if (!src) return;
+        videoPlayerContainer.innerHTML = ''; // Clear previous player
+        let player;
+        if (src.includes('vk.com')) {
+            player = document.createElement('iframe');
+            player.setAttribute('frameborder', '0');
+            player.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture');
+            player.setAttribute('allowfullscreen', 'true');
+        } else {
+            player = document.createElement('video');
+            player.setAttribute('controls', 'true');
+            player.autoplay = true;
+        }
+        player.src = src;
+        videoPlayerContainer.appendChild(player);
+        videoModal.classList.add('active');
     }
-    function closeVideoModal() { videoModal.classList.remove('active'); videoPlayer.pause(); videoPlayer.src = ''; }
+
+    function closeVideoModal() {
+        videoModal.classList.remove('active');
+        videoPlayerContainer.innerHTML = ''; // Destroy the player
+    }
 
     // --- CHARACTERS PAGE LOGIC --- //
     async function initializeCharactersPage(game) {
@@ -308,7 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                     <div>
                         <span class="demo-text-label">Watch Character Demo:</span>
-                        <span>\"${char.name}: Demo\"</span>
+                        <span>\"${char.videoTitle || char.name + ': Demo'}\"</span>
                     </div>
                 </button>` : '';
 

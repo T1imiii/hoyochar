@@ -698,7 +698,7 @@ header {
     background: #000;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
-.video-modal-content video {
+#video-player-container, #video-player-container iframe, #video-player-container video {
     width: 100%;
     height: 100%;
 }
