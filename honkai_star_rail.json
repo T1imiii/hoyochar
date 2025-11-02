@@ -1,21 +1,21 @@
 
 [
     {
-        "name": "MIDEJ",
-        "description": "Midej is a warrior shrouded in enigma, their past a blank slate and their motives inscrutable. They approach combat with a chilling, calculated precision, treating the chaos of battle as a complex equation to be solved. Their power over destruction is not born of rage, but of a cold, dispassionate logic, making them uniquely terrifying on the battlefield.",
+        "name": "MIDEI",
+        "description": "Midei is a warrior shrouded in enigma, their past a blank slate and their motives inscrutable. They approach combat with a chilling, calculated precision, treating the chaos of battle as a complex equation to be solved. Their power over destruction is not born of rage, but of a cold, dispassionate logic, making them uniquely terrifying on the battlefield.",
         "image": "images/honkaiStarRail/mainImages/midei_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/midei_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239123&hd=2&autoplay=1",
+        "videoTitle": "Wrath of Man",
         "region": "Destruction"
     },
     {
-        "name": "PHAENON",
+        "name": "PHAINON",
         "description": "Phaenon is a living cataclysm, a sentient manifestation of a star's final, glorious death throes. Their very existence is a paradox, containing both the immense energy of stellar fusion and the absolute cold of the impending void. This duality makes their power wildly unpredictable, erupting in bursts of solar fury that can both create and annihilate in the same instant.",
         "image": "images/honkaiStarRail/mainImages/faenon_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/faenon_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239124&hd=2&autoplay=1",
+        "videoTitle": "Coronal Radiance",
         "region": "Destruction"
     },
     {
@@ -23,8 +23,8 @@
         "description": "Saber is a swordmaster whose skill has transcended the physical realm, her blade said to be sharp enough to sever the very fabric of spacetime. She carries herself with a stoic and unwavering discipline, her expression a mask that hides a deep well of conviction and resolve. For Saber, the sword is not just a weapon, but an extension of her will and a symbol of her unbreakable oath.",
         "image": "images/honkaiStarRail/mainImages/seiber_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/saber_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239121&hd=2&autoplay=1",
+        "videoTitle": "A Long Fated Meeting",
         "region": "Destruction"
     },
     {
@@ -32,8 +32,8 @@
         "description": "Yunli is the embodiment of a tranquil yet devastating storm, her every movement a blend of lethal grace and elemental fury. She commands the wind and rain as if conducting a symphony, turning the battlefield into her stage. Her fighting style is a mesmerizing dance, where elegance and deadliness are one and the same, leaving opponents ensnared in a beautiful, inescapable tempest.",
         "image": "images/honkaiStarRail/mainImages/unli_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/unli_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239126&hd=2&autoplay=1",
+        "videoTitle": "Serendipity",
         "region": "Destruction"
     },
     {
@@ -41,8 +41,8 @@
         "description": "Jingliu was once a legendary sword master on the Xianzhou Luofu, a figure of reverence and power. Now, she is a mara-stricken specter of her former self, a relentless force shrouded in an eternal, bitter frost. Her once-precise techniques are now driven by a cold, unforgiving fury, each strike carrying the chill of a deep and personal sorrow that has frozen her heart.",
         "image": "images/honkaiStarRail/mainImages/zcinlu_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/zcinli_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239122&hd=2&autoplay=1",
+        "videoTitle": "Swordward",
         "region": "Destruction"
     },
     {
@@ -50,8 +50,8 @@
         "description": "Dan Heng Imbibitor Lunae is the true form of the Astral Express's quiet guard, revealing his heritage as the High Elder of the Vidyadhara. As the inheritor of the ancient Long's power, he commands the celestial waters, wielding them with a majesty and scale that dwarfs his mortal incarnation. This power is both a birthright and a heavy burden, representing a past and a destiny he once sought to escape.",
         "image": "images/honkaiStarRail/mainImages/dan_hen_poghiratel_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/dan_hen_poghiratel_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239119&hd=2&autoplay=1",
+        "videoTitle": "The Prodigal's Return",
         "region": "Destruction"
     },
     {
@@ -59,8 +59,8 @@
         "description": "Blade is a cursed immortal, a member of the Stellaron Hunters who walks a path of endless suffering. His body, constantly healing from any wound, has become a weapon in itself, and he harnesses his own life force to fuel his destructive power. He is a man consumed by a desire for a death that perpetually eludes him, and his combat style is a brutal, self-destructive dance of agony and vengeance.",
         "image": "images/honkaiStarRail/mainImages/blade_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/blade_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239118&hd=2&autoplay=1",
+        "videoTitle": "Death Approaches",
         "region": "Destruction"
     },
     {
@@ -68,8 +68,8 @@
         "description": "Clara is a kind-hearted and innocent girl who grew up in the perilous robot-controlled ruins of Belobog's underworld. Her survival and gentle nature are a testament to the protective presence of Svarog, a massive robot who acts as her guardian and father figure. Clara sees the good in everything, even in the mechanical beings that others fear, and she communicates with them with a childlike empathy.",
         "image": "images/honkaiStarRail/mainImages/klara_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/klara_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239166&hd=2&autoplay=1",
+        "videoTitle": "Beware of Automatons",
         "region": "Destruction"
     },
     {
@@ -77,8 +77,8 @@
         "description": "Firefly presents herself as a cheerful and energetic girl piloting a powerful mech suit, a member of the enigmatic Stellaron Hunters. Her upbeat demeanor and seemingly simple nature can be disarming, creating a stark contrast with the formidable firepower at her disposal. She speaks of dreams and a promised \"heaven\", offering a glimpse of a seemingly innocent aspiration.",
         "image": "images/honkaiStarRail/mainImages/svetlyachok_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/svetlyachok_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239120&hd=2&autoplay=1",
+        "videoTitle": "Embers in a Shell",
         "region": "Destruction"
     },
     {
@@ -86,8 +86,8 @@
         "description": "Seele is a product of the harsh and dangerous Underworld of Belobog, a fierce and resilient warrior who has fought for survival her entire life. She is impulsive, direct, and relies on her incredible speed and instinct, traits honed in the relentless struggle of the underground. Her signature scythe is not just a weapon, but a tool she uses to \"harvest\" victory and protect the few she holds dear.",
         "image": "images/honkaiStarRail/mainImages/seelle_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/seelle_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239149&hd=2&autoplay=1",
+        "videoTitle": "Uneventful Night",
         "region": "Hunt"
     },
     {
@@ -95,8 +95,8 @@
         "description": "Yanqing is a prodigious swordsman and the lieutenant of the Xianzhou Luofu's Cloud Knights, a young man whose entire life is dedicated to the way of the sword. His talent is unparalleled for his age, a source of great pride and a driving force behind his unwavering obsession to become the greatest swordsman the Luofu has ever known. He sees every encounter as a potential duel and a chance to test his skills.",
         "image": "images/honkaiStarRail/mainImages/yancin_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/yancin_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239151&hd=2&autoplay=1",
+        "videoTitle": "Tempered Chill",
         "region": "Hunt"
     },
     {
@@ -104,8 +104,8 @@
         "description": "Topaz is a sharp and ambitious senior manager in the IPC's Strategic Investment Department, a woman whose keen business acumen is matched only by the firepower of her loyal Warp Trotter companion, Numby. She approaches the universe through the lens of debt, credit, and profitability, seeing planets and civilizations as assets to be assessed. Her confidence is unshakable, backed by the immense authority of the IPC.",
         "image": "images/honkaiStarRail/mainImages/topaz_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/topaz_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239150&hd=2&autoplay=1",
+        "videoTitle": "Expert Tutorial",
         "region": "Hunt"
     },
     {
@@ -113,8 +113,8 @@
         "description": "Doctor Ratio is a brilliant and notoriously arrogant member of the Intelligentsia Guild, who hides his face behind a plaster head of a classical thinker as a statement against the cult of \"genius\". He is brutally candid, condescending, and holds a firm belief that true intellect is not an innate gift but a product of rigorous effort and education, a resource that should be available to all.",
         "image": "images/honkaiStarRail/mainImages/doctor_racio_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/doctor_racio_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239147&hd=2&autoplay=1",
+        "videoTitle": "Supreme Idiocy",
         "region": "Hunt"
     },
     {
@@ -122,8 +122,8 @@
         "description": "Boothill is a cyborg cowboy who rides the star trails as a Galaxy Ranger, a figure of mythic Americana reborn in the cosmic frontier. He is an optimistic, freedom-loving gunslinger with a quick draw and a witty remark for every situation. His entire persona is a tribute to the classic tales of the untamed west, now set against the backdrop of interstellar saloons and lawless planets.",
         "image": "images/honkaiStarRail/mainImages/boothill_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/buthill_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239146&hd=2&autoplay=1",
+        "videoTitle": "Cowboy's Got Business",
         "region": "Hunt"
     },
     {
@@ -131,8 +131,8 @@
         "description": "Feixiao is a legendary figure within the Galaxy Rangers, a skilled pilot and warrior known for her unparalleled speed and precision. Her name commands respect across the star systems, synonymous with decisive interventions and flawless execution of justice. She is a strategist as much as a fighter, able to assess a chaotic battlefield and find the one critical path to victory.",
         "image": "images/honkaiStarRail/mainImages/feixiao_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/fei_syao_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239148&hd=2&autoplay=1",
+        "videoTitle": "Nothing to Laugh At",
         "region": "Hunt"
     },
     {
@@ -140,8 +140,8 @@
         "description": "Archer is a phantom on the battlefield, an enigmatic figure whose true name and origins are unknown. Their reputation is built on a single, unshakeable fact: their arrows never miss. They operate with a silent, detached efficiency, observing the flow of combat with a calm that borders on apathy, only acting to loose a single, fate-turning shot at the perfect moment.",
         "image": "images/honkaiStarRail/mainImages/archer_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/archer_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239121&hd=2&autoplay=1",
+        "videoTitle": "A Long Fated Meeting",
         "region": "Hunt"
     },
     {
@@ -149,8 +149,8 @@
         "description": "Himeko is the brilliant scientist and adventurous heart of the Astral Express, the one who discovered and repaired the dormant train, reviving its purpose of trailblazing across the stars. She is warm, optimistic, and intellectually curious, acting as a mentor and maternal figure to the crew. Her passion for exploration is matched only by her love for a good cup of coffee, often enjoyed while observing the cosmos.",
         "image": "images/honkaiStarRail/mainImages/himeko_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/himeko_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239129&hd=2&autoplay=1",
+        "videoTitle": "Star Chaser",
         "region": "Erudition"
     },
     {
@@ -158,8 +158,8 @@
         "description": "Jing Yuan is the Lightning Lord of the Xianzhou Luofu, one of its seven legendary Arbiter-Generals. He presents an image of a relaxed, almost lazy leader, often depicted napping or playing chess. This easygoing demeanor, however, is a facade for one of the most brilliant strategic minds in the Alliance, a master of long-term planning whose patience spans centuries.",
         "image": "images/honkaiStarRail/mainImages/zcin_uan_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/zcin_uan_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239131&hd=2&autoplay=1",
+        "videoTitle": "Heaven and Earth as a Chessboard",
         "region": "Erudition"
     },
     {
@@ -167,17 +167,17 @@
         "description": "Argenti is a knight from the Knights of Beauty, a noble and chivalrous soul who wanders the cosmos alone in devoted service to the Aeon Idrila. He is the epitome of grace and honor, his every action guided by a profound belief in the pursuit and preservation of beauty in all its forms. He speaks with poetic elegance and fights with a flair that transforms combat into a performance.",
         "image": "images/honkaiStarRail/mainImages/argenti_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/argenti_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239128&hd=2&autoplay=1",
+        "videoTitle": "Chivalric Romances",
         "region": "Erudition"
     },
     {
-        "name": "YASHMA",
+        "name": "JADE",
         "description": "Yashma is a dancer whose artistry transcends performance, weaving a magic that can captivate the mind and ensnare the senses. Her movements are a language of their own, telling stories of forgotten eras and weaving illusions so potent they can alter perception and emotion. She is a living work of art, her very presence a mesmerizing spectacle.",
         "image": "images/honkaiStarRail/mainImages/yashma_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/yashma_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239130&hd=2&autoplay=1",
+        "videoTitle": "A Collection of Desires",
         "region": "Erudition"
     },
     {
@@ -185,8 +185,8 @@
         "description": "Rappa is a small, furry, and deceptively cute creature that possesses immense and unpredictable power. Its appearance belies a formidable force of nature, capable of feats of strength and energy manipulation that can turn the tide of battle. It is a creature of instinct and simple desires, whose loyalty, once earned, is unshakable.",
         "image": "images/honkaiStarRail/mainImages/rappa_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/rappa_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239132&hd=2&autoplay=1",
+        "videoTitle": "No Dazzle, No Break",
         "region": "Erudition"
     },
     {
@@ -194,8 +194,8 @@
         "description": "The Great Herta is the genius master of the Herta Space Station, a member of the Genius Society who has transcended the limitations of a mortal body by transferring her consciousness into a puppet. The being encountered is merely one of many such puppets, all acting as remote terminals for a mind that is likely light-years away, observing the universe through countless eyes.",
         "image": "images/honkaiStarRail/mainImages/gerta_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/gerta_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239133&hd=2&autoplay=1",
+        "videoTitle": "Geniuses in the Universe",
         "region": "Erudition"
     },
     {
@@ -203,8 +203,8 @@
         "description": "Anaxa is a sorceress who commands the primordial forces of nature, speaking the language of the earth and the sky. Her voice can summon gales and her gestures can call forth earthquakes, making her a living conduit of the planet's raw, untamed power. She is a guardian of ancient, natural balances, often standing against those who would seek to despoil or artificially control the world.",
         "image": "images/honkaiStarRail/mainImages/anaksa_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/anaksa_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239127&hd=2&autoplay=1",
+        "videoTitle": "The Sin of Pride",
         "region": "Erudition"
     },
     {
@@ -212,8 +212,8 @@
         "description": "Bronya is the heir to the Supreme Guardian of Belobog and the commander of the Silvermane Guards, a leader forged in the fires of civil conflict. She is a disciplined, righteous, and capable ruler who initially adhered strictly to the established order. Her worldview was shattered upon learning the truth about the suffering in the Underworld, forcing her to redefine her understanding of duty and justice.",
         "image": "images/honkaiStarRail/mainImages/bronya_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/bronya_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239141&hd=2&autoplay=1",
+        "videoTitle": "Secrets of the Next Supreme",
         "region": "Harmony"
     },
     {
@@ -221,8 +221,8 @@
         "description": "Ruan Mei is a sweet-tempered and elegant scholar, Member #81 of the illustrious Genius Society, and an expert in the biological sciences. Her gentle demeanor and soft-spoken nature mask an intellect of terrifying depth and creativity. She approaches life sciences as an artist would a canvas, fascinated by the beauty and complexity of genetic codes and evolutionary paths.",
         "image": "images/honkaiStarRail/mainImages/ghuan_mei_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/ghuan_mei_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239142&hd=2&autoplay=1",
+        "videoTitle": "In All Does Life Flow",
         "region": "Harmony"
     },
     {
@@ -230,8 +230,8 @@
         "description": "Sparkle is a member of the Masked Fools, a chaotic trickster who lives solely for her own amusement. She is a master of drama, deception, and identity, donning masks and personas as easily as others change clothes. The world is her stage, and everyone in it is merely a player in a grand, improvisational comedy scripted by her whims.",
         "image": "images/honkaiStarRail/mainImages/iscorka_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/iscorka_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239125&hd=2&autoplay=1",
+        "videoTitle": "Monodrama",
         "region": "Harmony"
     },
     {
@@ -239,8 +239,8 @@
         "description": "Robin is a Halovian singer from Penacony who has become a galactic superstar, her voice celebrated across the stars as a source of inspiration and solace. She carries herself with an elegant and serene demeanor, a beacon of grace in the often-chaotic Dreamscape. Her music is more than entertainment; it is a harmonizing force that can soothe troubled souls and unite disparate hearts.",
         "image": "images/honkaiStarRail/mainImages/zaryanka_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/zaryanka_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239165&hd=2&autoplay=1",
+        "videoTitle": "Sway to My Beat",
         "region": "Harmony"
     },
     {
@@ -248,26 +248,26 @@
         "description": "Sunday is Robin's older brother, a Halovian of great influence and a devout follower of the Family in Penacony. He is a calm, composed, and charismatic figure who acts as a guiding hand and a moral authority within the dreamscape. His devotion to the Family's ideals is absolute, and he works tirelessly to maintain the peace and order of their utopian project.",
         "image": "images/honkaiStarRail/mainImages/voskresenie_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/voskresenie_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239144&hd=2&autoplay=1",
+        "videoTitle": "Soloist",
         "region": "Harmony"
     },
     {
-        "name": "TRIBBI",
-        "description": "Tribbi is a mischievous, playful, and chaotic creature, a living embodiment of whimsy and unpredictability. It finds immense joy in causing minor havoc, playing pranks, and turning orderly situations into delightful chaos. Its attacks are as comical as they are effective, often relying on surprise, confusion, and the element of the absurd.",
+        "name": "TRIBBIE",
+        "description": "Tribbie is a mischievous, playful, and chaotic creature, a living embodiment of whimsy and unpredictability. It finds immense joy in causing minor havoc, playing pranks, and turning orderly situations into delightful chaos. Its attacks are as comical as they are effective, often relying on surprise, confusion, and the element of the absurd.",
         "image": "images/honkaiStarRail/mainImages/tribbi_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/tribbi_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239145&hd=2&autoplay=1",
+        "videoTitle": "Children Know Nothing",
         "region": "Harmony"
     },
     {
-        "name": "KERIDRA",
-        "description": "Keridra is an ancient and wise being, a guardian of knowledge who has witnessed the rise and fall of stars and civilizations. Her perspective is measured in eons, making the concerns of mortals seem both fleeting and precious. She possesses immense power, but wields it with a patience and foresight that can be mistaken for passivity.",
+        "name": "CERYDRA",
+        "description": "Cerydra is an ancient and wise being, a guardian of knowledge who has witnessed the rise and fall of stars and civilizations. Her perspective is measured in eons, making the concerns of mortals seem both fleeting and precious. She possesses immense power, but wields it with a patience and foresight that can be mistaken for passivity.",
         "image": "images/honkaiStarRail/mainImages/kerida_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/kerida_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239140&hd=2&autoplay=1",
+        "videoTitle": "Step Onto the Board",
         "region": "Harmony"
     },
     {
@@ -275,8 +275,8 @@
         "description": "Welt Yang is the seasoned former Sovereign of Anti-Entropy, a veteran hero who has saved Earth from annihilation multiple times in his own reality. Now a passenger on the Astral Express, he acts as a wise mentor and a stabilizing father figure for the crew. He carries the weight of his past experiences and the responsibility of his immense power over gravity and creation with a quiet, weary dignity.",
         "image": "images/honkaiStarRail/mainImages/velt_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/velt_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239163&hd=2&autoplay=1",
+        "videoTitle": "Back to the Frontline to Nurture",
         "region": "Nihility"
     },
     {
@@ -284,8 +284,8 @@
         "description": "Silver Wolf is a member of the Stellaron Hunters and a genius hacker who perceives the universe as a vast, immersive simulation. Reality, to her, is just a system of code waiting to be manipulated. She is a digital phantom, able to breach any security, alter environmental data, and rewrite the rules of engagement on the fly with a bored, gamer-like attitude.",
         "image": "images/honkaiStarRail/mainImages/silver_wolf_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/silver_wolf_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239164&hd=2&autoplay=1",
+        "videoTitle": "Got a Date",
         "region": "Nihility"
     },
     {
@@ -293,8 +293,8 @@
         "description": "Kafka is a key member of the Stellaron Hunters, a beautiful and deadly woman who remains utterly calm and composed in any situation. She speaks in a soothing, hypnotic tone, using her power to manipulate spirits and emotions to control the battlefield. Her elegance is as sharp as a blade, and her motives are deeply entwined with the inscrutable prophecies of Elio.",
         "image": "images/honkaiStarRail/mainImages/kafka_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/kafka_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239162&hd=2&autoplay=1",
+        "videoTitle": "A Dramatic Irony",
         "region": "Nihility"
     },
     {
@@ -302,8 +302,8 @@
         "description": "Black Swan is a Memokeeper of the Garden of Recollection, an elegant and mysterious soothsayer who navigates the river of memories that flow through the universe. With a warm, knowing smile, she can read the memories of others as if they were an open book, witnessing their past joys, sorrows, and secrets. She is a collector and preserver of experiences, ensuring that nothing is truly forgotten.",
         "image": "images/honkaiStarRail/mainImages/black_lebed_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/black_lebed_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239157&hd=2&autoplay=1",
+        "videoTitle": "Lullaby",
         "region": "Nihility"
     },
     {
@@ -311,8 +311,8 @@
         "description": "Acheron is a Galaxy Ranger who walks the Path of Nihility, a solitary and melancholic figure whose true name is a mystery. She carries an air of profound sadness and world-weariness, as if burdened by a cosmic truth that has drained the color from her world. Her presence is often preceded by a fading, crimson light, a harbinger of the emptiness she embodies.",
         "image": "images/honkaiStarRail/mainImages/aheron_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/aheron_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239156&hd=2&autoplay=1",
+        "videoTitle": "Your Color",
         "region": "Nihility"
     },
     {
@@ -320,35 +320,35 @@
         "description": "Jiaoqiu is a cunning and manipulative strategist, a spider at the center of a web of intrigue and deception. They excel at playing the long game, always thinking several moves ahead of their opponents and exploiting their weaknesses, ambitions, and fears. They see conflict not as a clash of force, but as a complex puzzle to be solved through misdirection and psychological warfare.",
         "image": "images/honkaiStarRail/mainImages/czyaocu_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/czyao_cu_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239161&hd=2&autoplay=1",
+        "videoTitle": "Pneumanull Rice",
         "region": "Nihility"
     },
     {
-        "name": "FUGA",
-        "description": "Fuga is a silent assassin, a phantom whose movements are as ephemeral as a passing breeze. They leave no trace, make no sound, and strike with a swiftness that offers their targets no time for fear or reaction. Their existence is a study in minimalism: no unnecessary words, no wasted motions, only the pure, efficient execution of their mission.",
+        "name": "FUGUE",
+        "description": "Fugue is a silent assassin, a phantom whose movements are as ephemeral as a passing breeze. They leave no trace, make no sound, and strike with a swiftness that offers their targets no time for fear or reaction. Their existence is a study in minimalism: no unnecessary words, no wasted motions, only the pure, efficient execution of their mission.",
         "image": "images/honkaiStarRail/mainImages/fuga_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/fuga_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239159&hd=2&autoplay=1",
+        "videoTitle": "Wordless",
         "region": "Nihility"
     },
     {
-        "name": "CIFER",
-        "description": "Cifer is a master of disguise and deception, a chameleon who can infiltrate any organization and extract any secret. They have no true face, only a collection of masks and personas worn so perfectly that the line between the performance and the performer blurs. They are a living ghost, able to walk through the most secure facilities as if they belong there.",
+        "name": "CIPHER",
+        "description": "Cipher is a master of disguise and deception, a chameleon who can infiltrate any organization and extract any secret. They have no true face, only a collection of masks and personas worn so perfectly that the line between the performance and the performer blurs. They are a living ghost, able to walk through the most secure facilities as if they belong there.",
         "image": "images/honkaiStarRail/mainImages/cifer_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/cifer_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239158&hd=2&autoplay=1",
+        "videoTitle": "Piece of Cake",
         "region": "Nihility"
     },
     {
-        "name": "GISILENSA",
-        "description": "Gisilensa is an ancient being touched by the power of the Path of Nihility, said to possess an understanding of time that borders on the absolute. She may perceive time not as a linear flow, but as a stagnant pool or a tangled web of possibilities. This perspective has divorced her from the mortal concerns of past, present, and future, leaving her detached and enigmatic.",
+        "name": "HYSILENS",
+        "description": "Hysilens is an ancient being touched by the power of the Path of Nihility, said to possess an understanding of time that borders on the absolute. She may perceive time not as a linear flow, but as a stagnant pool or a tangled web of possibilities. This perspective has divorced her from the mortal concerns of past, present, and future, leaving her detached and enigmatic.",
         "image": "images/honkaiStarRail/mainImages/gisilensa_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/gisilensa_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239160&hd=2&autoplay=1",
+        "videoTitle": "Daughter of the Sea",
         "region": "Nihility"
     },
     {
@@ -356,8 +356,8 @@
         "description": "Gepard Landau is the captain of Belobog's Silvermane Guards, a man of unshakable duty, honor, and resilience. He is the embodiment of the Preservation path, standing as an immovable shield between the city and the Fragmentum's monsters. His leadership inspires unwavering loyalty in his troops, who follow him without question into the most desperate battles.",
         "image": "images/honkaiStarRail/mainImages/gepard_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/gepard_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239139&hd=2&autoplay=1",
+        "videoTitle": "In the Name of Landau",
         "region": "Preservation"
     },
     {
@@ -365,6 +365,8 @@
         "description": "Fu Xuan is the confident and blunt master diviner of the Xianzhou Luofu's Divination Commission. She possesses the ability to perceive the myriad possible futures through the Matrix of Prescience, using this knowledge to guide the Luofu's strategy and avert disaster. Her youth belies her immense wisdom and the heavy burden of her office.",
         "image": "images/honkaiStarRail/mainImages/fu_suan_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/fu_suan_side.webp",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239138&hd=2&autoplay=1",
+        "videoTitle": "Omniscia Spares None",
         "region": "Preservation"
     },
     {
@@ -372,8 +374,8 @@
         "description": "Aventurine is a senior manager in the IPC's Strategic Investment Department and one of the Ten Stonehearts, a man who thrives on high-stakes gambles. He wears a mask of charming nonchalance and flashy bravado, treating life, business, and combat as one big casino. Every decision is a calculated risk, and he is always ready to go \"all-in\" on a hunch.",
         "image": "images/honkaiStarRail/mainImages/avanturin_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/avanturin_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239136&hd=2&autoplay=1",
+        "videoTitle": "The Golden Touch",
         "region": "Preservation"
     },
     {
@@ -381,8 +383,8 @@
         "description": "Bailu is a young Vidyadhara healer, known as the \"Healer Lady\" on the Xianzhou Luofu. Despite her childish appearance and playful, sometimes mischievous, demeanor, she is a prodigiously gifted doctor whose healing abilities are a blessing from the Abundance. She carries the weight of her role with a sense of duty, but often chafes against the strict protocols imposed on her.",
         "image": "images/honkaiStarRail/mainImages/bailu_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/bailu_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239110&hd=2&autoplay=1",
+        "videoTitle": "In Torrid Heat",
         "region": "Abundance"
     },
     {
@@ -390,8 +392,8 @@
         "description": "Luocha is a handsome, soft-spoken, and enigmatic foreign merchant who travels with a conspicuous coffin on his back. He presents himself as a simple trader and a skilled, almost miraculous, healer. His calm and elegant demeanor, however, masks a deep and potentially dangerous secret connected to the contents of his coffin and his true motives for being on the Luofu.",
         "image": "images/honkaiStarRail/mainImages/locha_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/locha_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239113&hd=2&autoplay=1",
+        "videoTitle": "The Traveler And His Oath",
         "region": "Abundance"
     },
     {
@@ -399,8 +401,8 @@
         "description": "Huohuo is a timid and easily frightened Foxian girl who is, ironically, a judge-in-training for the Ten-Lords Commission, an organization that deals with spirits and the afterlife. She is terrified of ghosts, yet her job requires her to confront and capture them. This constant state of fear makes her a pitiable but endearing figure, always on the verge of jumping out of her own skin.",
         "image": "images/honkaiStarRail/mainImages/hoho_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/hoho_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239134&hd=2&autoplay=1",
+        "videoTitle": "Night of Thrills",
         "region": "Abundance"
     },
     {
@@ -408,26 +410,26 @@
         "description": "Linsha is a gentle and compassionate healer, a beacon of solace and hope on the battlefield. Her touch can mend the most grievous wounds and soothe the most troubled spirits, embodying the pure, benevolent aspect of the Abundance. She operates from a place of deep empathy, seeing the value in every life and striving to preserve it against the ravages of war and decay.",
         "image": "images/honkaiStarRail/mainImages/linsha_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/linsha_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239135&hd=2&autoplay=1",
+        "videoTitle": "Burning Scent of Home",
         "region": "Abundance"
     },
     {
-        "name": "AGLAIA",
-        "description": "Aglaia is a being of pure light and memory, a guardian and living archive for the Garden of Recollection. She is not born of flesh, but woven from the essence of cherished moments, forgotten joys, and collective experiences. Her purpose is to preserve these fragments of existence, ensuring that the emotions and truths they hold are never lost to the void of oblivion.",
+        "name": "AGLAEA",
+        "description": "Aglaea is a being of pure light and memory, a guardian and living archive for the Garden of Recollection. She is not born of flesh, but woven from the essence of cherished moments, forgotten joys, and collective experiences. Her purpose is to preserve these fragments of existence, ensuring that the emotions and truths they hold are never lost to the void of oblivion.",
         "image": "images/honkaiStarRail/mainImages/aglaya_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/aglaya_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239152&hd=2&autoplay=1",
+        "videoTitle": "Deadly Romance",
         "region": "Memory"
     },
     {
-        "name": "CASTORIA",
-        "description": "Castoria is a warrior who can call upon the echoes of fallen heroes, channeling their skills, memories, and fighting spirit to aid her in battle. She is a living bridge to the past, a vessel through which legendary deeds are given a second life. Each spirit she summons adds its own layer of experience and power to her own, making her a versatile and unpredictable combatant.",
+        "name": "CASTORICE",
+        "description": "Castorice is a warrior who can call upon the echoes of fallen heroes, channeling their skills, memories, and fighting spirit to aid her in battle. She is a living bridge to the past, a vessel through which legendary deeds are given a second life. Each spirit she summons adds its own layer of experience and power to her own, making her a versatile and unpredictable combatant.",
         "image": "images/honkaiStarRail/mainImages/kastoria_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/kastoriya_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239153&hd=2&autoplay=1",
+        "videoTitle": "Epitaph",
         "region": "Memory"
     },
     {
@@ -435,8 +437,8 @@
         "description": "Hyacina is a siren whose song is woven from the very fabric of memory. Her voice can evoke long-lost loves, deepest regrets, and forgotten dreams, ensnaring the minds of her listeners in a web of their own past. She is as beautiful as she is deadly, a creature who understands that the most potent magic lies in the heart's unhealed wounds and most cherished recollections.",
         "image": "images/honkaiStarRail/mainImages/giacina_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/giacina_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239155&hd=2&autoplay=1",
+        "videoTitle": "Always Here to Help",
         "region": "Memory"
     },
     {
@@ -444,8 +446,8 @@
         "description": "Evernight is a unique Memokeeper, a child of Remembrance born from the \"shadow\", tasked with a paradoxical duty: to guard the \"Coreflame of Time\" by stirring the \"tide of Oblivion\". She is a being of contradictions, a preserver who works with the forces of forgetting, a heir to light (Chrysos) who operates in darkness. Her very existence balances on the knife's edge between memory and void.",
         "image": "images/honkaiStarRail/mainImages/temen_main.webp",
         "cardImage": "images/honkaiStarRail/sideImages/temen_side.webp",
-        "demoVideo": "",
-        "videoTitle": "",
+        "demoVideo": "https://vk.com/video_ext.php?oid=-232798999&id=456239154&hd=2&autoplay=1",
+        "videoTitle": "Night Falls, Everyone, Close Your Eyes",
         "region": "Memory"
     }
 ]
