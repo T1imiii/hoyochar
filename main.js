@@ -205,7 +205,14 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!posts || posts.length === 0) { newsFeedEl.innerHTML = '<p>No news to display.</p>'; return; }
         let feedHTML = posts.map(post => {
             const postDate = new Date(post.date * 1000).toLocaleString();
-            const postText = post.text.replace(/\n/g, '<br>');
+            
+            const urlRegex = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])|(\b[A-Z0-9-]+\.[A-Z]{2,}[-A-Z0-9+&@#\/%=~_|]*)/ig;
+            const textWithLinks = post.text.replace(urlRegex, (url) => {
+                const properUrl = /^https?:\/\//.test(url) ? url : `//${url}`;
+                return `<a href="${properUrl}" target="_blank">${url}</a>`;
+            });
+            const postText = textWithLinks.replace(/\n/g, '<br>');
+
             let attachmentsHTML = '';
             if (post.attachments && post.attachments.length > 0) {
                 const photoAttachments = post.attachments.filter(att => att.type === 'photo');
@@ -324,10 +331,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const isActive = index === 0;
             const videoButtonHTML = char.demoVideo ? `
                 <button class="watch-demo-btn" data-video-src="${char.demoVideo}">
-                    <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                    <div>
+                    <div class="play-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </div>
+                    <div class="demo-text">
                         <span class="demo-text-label">Watch Character Demo:</span>
-                        <span>\"${char.videoTitle || char.name + ': Demo'}\"</span>
+                        <span class="demo-video-title">"${char.videoTitle || char.name + ': Demo'}"</span>
                     </div>
                 </button>` : '';
 

@@ -433,26 +433,60 @@ header {
     display: inline-flex;
     align-items: center;
     cursor: pointer;
-    align-self: flex-start; /* Corrected alignment */
-    padding: 0.8rem 1.5rem;
-    border: 2px solid var(--accent-color);
-    border-radius: 8px;
     background-color: transparent;
     color: #fff;
     transition: all 0.3s ease;
+	border: none;
+    padding: 0;
+	gap: 1.5rem;
 }
-#characters-page .watch-demo-btn:hover {
-    background-color: var(--character-card-active-bg);
+#characters-page .watch-demo-btn:hover .play-icon {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px 5px var(--character-card-glow-color);
+}
+.play-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.play-icon::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid var(--accent-color);
+    opacity: 0.5;
 }
 #characters-page .watch-demo-btn svg {
     width: 24px;
     height: 24px;
-    fill: var(--accent-color);
-    margin-right: 1rem;
+    fill: white;
+	transition: all 0.3s ease;
 }
-#characters-page .watch-demo-btn .demo-text-label {
+#characters-page .watch-demo-btn:hover svg {
+	fill: var(--accent-color);
+}
+.demo-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+#characters-page .demo-text-label {
     font-weight: bold;
-    margin-right: 0.5rem;
+	font-size: 1rem;
+    color: var(--text-secondary-color);
+}
+.demo-video-title {
+	font-size: 1.2rem;
+    font-weight: bold;
 }
 
 
@@ -502,6 +536,22 @@ header {
 /* --- PAGE 3: NEWS --- */
 #news-page {
     justify-content: center;
+    position: relative; /* Needed for absolute positioning of the background */
+    overflow-y: auto;   /* This makes the PAGE scrollable */
+}
+
+#news-page .news-background {
+    position: fixed; /* Position relative to #news-page */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/background.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keep the parallax/fixed effect */
+    filter: brightness(0.2);
+    z-index: -1;
 }
 
 .news-feed {
@@ -547,25 +597,46 @@ header {
     font-size: 1rem;
 }
 
+.post-text a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.post-text a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+.post-video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    background: #000;
+}
+
+.post-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .post-attachments {
     margin-bottom: 1.5rem;
     display: grid;
-    gap: 8px; /* Add a gap between grid items */
-    border-radius: 8px; /* Rounded corners for the container */
-    overflow: hidden; /* Clip the corners of the children */
+    gap: 8px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
-/* Default to a single column */
-.attachments-1 {
-    grid-template-columns: 1fr;
-}
-
-/* Two images side-by-side */
-.attachments-2 {
-    grid-template-columns: 1fr 1fr;
-}
-
-/* Three images, one large and two small */
+.attachments-1 { grid-template-columns: 1fr; }
+.attachments-2 { grid-template-columns: 1fr 1fr; }
 .attachments-3 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -574,32 +645,26 @@ header {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
-
-/* Four images in a 2x2 grid */
 .attachments-4 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
 }
-
-/* 5+ images get a more complex grid */
 .attachments-5, .attachments-6, .attachments-7, .attachments-8, .attachments-9, .attachments-10 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(auto-fill, 1fr);
 }
 
-
 .attachment-link {
     display: block;
     position: relative;
-    background-color: #000; /* Black background for contrast */
+    background-color: #000;
     overflow: hidden;
-    height: 300px; /* Give a fixed height to normalize the grid */
+    height: 300px;
 }
-
 
 .attachment-bg {
     position: absolute;
-    top: -20px; /* Enlarge to hide blurred edges */
+    top: -20px;
     left: -20px;
     width: calc(100% + 40px);
     height: calc(100% + 40px);
@@ -615,21 +680,18 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: contain; /* This is key: fits the image within the container */
+    object-fit: contain;
     object-position: center;
     transition: transform 0.3s ease;
 }
 
-.attachment-link:hover .attachment-img {
-    transform: scale(1.05); /* Slight zoom on hover */
-}
-
+.attachment-link:hover .attachment-img { transform: scale(1.05); }
 
 .post-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: auto; /* Pushes footer to the bottom */
+    margin-top: auto;
     padding-top: 1rem;
     border-top: 1px solid var(--border-color);
 }
@@ -654,10 +716,7 @@ header {
     margin-right: 0.5rem;
     transition: fill 0.3s;
 }
-
-.post-stat:hover svg {
-    fill: var(--accent-color);
-}
+.post-stat:hover svg { fill: var(--accent-color); }
 
 .post-date {
     font-size: 0.85rem;
@@ -668,27 +727,21 @@ header {
 .video-modal {
     display: none;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 0; left: 0; width: 100%; height: 100%;
     z-index: 1000;
     justify-content: center;
     align-items: center;
 }
-.video-modal.active {
-    display: flex;
-}
+.video-modal.active { display: flex; }
+
 .video-modal-overlay {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 0; left: 0; width: 100%; height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(8px);
     cursor: pointer;
 }
+
 .video-modal-content {
     position: relative;
     z-index: 1001;
@@ -698,10 +751,12 @@ header {
     background: #000;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
+
 #video-player-container, #video-player-container iframe, #video-player-container video {
     width: 100%;
     height: 100%;
 }
+
 .close-video-btn {
     position: absolute;
     top: -45px;
