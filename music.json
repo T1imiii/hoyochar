@@ -21,8 +21,8 @@
             "popularity": 90
         },
         {
-            "albumId": "album_celestia",
-            "trackIndex": 2,
+            "albumId": "album_white_night",
+            "trackIndex": 0,
             "popularity": 88
         },
         {
@@ -42,17 +42,23 @@
                 {
                     "title": "回家的路",
                     "duration": "2:52",
-                    "url": "music/HOYO-MiX - 回家的路 (Genshin Impact's 5th Anniversary Theme Song- Chinese Version).mp3"
+                    "url": "music/HOYO-MiX - 回家的路 (Genshin Impact's 5th Anniversary Theme Song- Chinese Version).mp3",
+                    "artist":"HOYO-MiX",
+                    "image":"music/music_images/Genshin Impact - The Long Way Home.jpg"
                 },
                 {
                     "title": "The Long Way Home",
                     "duration": "2:52",
-                    "url": ""
+                    "url": "music/HOYO-MiX - The Long Way Home (Genshin Impact's 5th Anniversary Theme Song- English Version).mp3",
+                    "artist":"HOYO-MiX",
+                    "image":"music/music_images/Genshin Impact - The Long Way Home.jpg"
                 },
                 {
                     "title": "The Long Way Home (Instrumental)",
                     "duration": "2:52",
-                    "url": "music/HOYO-MiX - The Long Way Home (Instrumental).mp3"
+                    "url": "music/HOYO-MiX - The Long Way Home (Instrumental).mp3",
+                    "artist":"HOYO-MiX",
+                    "image":"music/music_images/Genshin Impact - The Long Way Home.jpg"
                 }
             ]
         },
@@ -66,12 +72,16 @@
                 {
                     "title": "FURYON",
                     "duration": "3:16",
-                    "url": "music/Sān-Z - FURYON.mp3"
+                    "url": "music/Sān-Z - FURYON.mp3",
+                    "artist":"Sān-Z, HOYO-MiX, Alaina Cross",
+                    "image":"music/music_images/FURYON.jpg"
                 },
                 {
                     "title": "FURYON (伴奏)",
                     "duration": "3:16",
-                    "url": "music/Sān-Z - FURYON (伴奏).mp3"
+                    "url": "music/Sān-Z - FURYON (伴奏).mp3",
+                    "artist":"Sān-Z, HOYO-MiX, Alaina Cross",
+                    "image":"music/music_images/FURYON.jpg"
                 }
             ]
         },
@@ -85,36 +95,60 @@
                 {
                     "title": "Wonderland Trickery",
                     "duration": "3:19",
-                    "url": "music/Sān-Z - Wonderland Trickery.mp3"
+                    "url": "music/Sān-Z - Wonderland Trickery.mp3",
+                    "artist":"Sān-Z, HOYO-MiX",
+                    "image":"music/music_images/Wonderland Trickery.jpg"
                 },
                 {
                     "title": "Wonderland Trickery (Instrumental)",
                     "duration": "3:19",
-                    "url": "music/Sān-Z - Wonderland Trickery (Instrumental).mp3"
+                    "url": "music/Sān-Z - Wonderland Trickery (Instrumental).mp3",
+                    "artist":"Sān-Z, HOYO-MiX",
+                    "image":"music/music_images/Wonderland Trickery.jpg"
                 }
             ]
         },
         {
-            "id": "album_celestia",
-            "title": "Songs of Celestia",
-            "artist": "Venti",
-            "year": "2020",
-            "cover": "images/genshinImpact/mainImages/venti_main.webp",
+            "id": "album_white_night",
+            "title": "WHITE NIGHT",
+            "artist": "HOYO-MiX, Tsar",
+            "year": "2024",
+            "cover": "music/music_images/WHITE NIGHT.jpg",
             "tracks": [
                 {
-                    "title": "Bard's Tale",
-                    "duration": "2:10",
-                    "url": "music/MyinWo - MANDALA FUNK.mp3"
+                    "title": "WHITE NIGHT",
+                    "duration": "2:19",
+                    "url": "music/Jake Miller - WHITE NIGHT.mp3",
+                    "artist":"Jake Miller, HOYO-MiX, Tsar",
+                    "image":"music/music_images/WHITE NIGHT.jpg"
                 },
                 {
-                    "title": "Anemo's Embrace",
-                    "duration": "3:30",
-                    "url": "music/MyinWo - MANDALA FUNK.mp3"
+                    "title": "不眠之夜",
+                    "duration": "2:18",
+                    "url": "music/张杰 - 不眠之夜.mp3",
+                    "artist":"张杰, HOYO-MiX, Tsar",
+                    "image":"music/music_images/WHITE NIGHT.jpg"
                 },
                 {
-                    "title": "Whispers of the Wind",
-                    "duration": "3:05",
-                    "url": "music/MyinWo - MANDALA FUNK.mp3"
+                    "title": "WHITE NIGHT (Japanese Ver․)",
+                    "duration": "2:17",
+                    "url": "music/西山晃世 - WHITE NIGHT (Japanese Ver․).mp3",
+                    "artist":"西山晃世, HOYO-MiX, Takashi Yoshiba, Tsar",
+                    "image":"music/music_images/WHITE NIGHT.jpg"
+                },
+                {
+                    "title": "WHITE NIGHT (Korean Ver․)",
+                    "duration": "2:18",
+                    "url": "music/HOYO-MiX - WHITE NIGHT (Korean Ver․).mp3",
+                    "artist":"HOYO-MiX, Hangoo Kim, Tsar",
+                    "image":"music/music_images/WHITE NIGHT.jpg"
+                },
+                {
+                    "title": "WHITE NIGHT (Instrumental)",
+                    "duration": "2:19",
+                    "url": "music/HOYO-MiX - WHITE NIGHT (Instrumental).mp3",
+                    "artist":"HOYO-MiX, Tsar",
+                    "image":"music/music_images/WHITE NIGHT.jpg"
                 }
             ]
         }

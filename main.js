@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const topNav = document.querySelector('.top-nav');
     const navIndicator = document.querySelector('.nav-indicator');
     const gameLogo = document.getElementById('game-logo');
-    const startBrowsingBtn = document.getElementById('start-browsing-btn');
+    const homePage = document.getElementById('home-page');
     const pages = document.querySelectorAll('.page');
     const scrollIndicator = document.querySelector('.scroll-indicator');
     const charactersLink = document.querySelector('.characters-link');
@@ -384,7 +384,14 @@ document.addEventListener('DOMContentLoaded', () => {
         switchPage(targetPage === 'characters' ? 'characters-page' : `${targetPage}-page`, game);
     });
 
-    startBrowsingBtn.addEventListener('click', () => switchPage('characters-page', 'characters'));
+    homePage.addEventListener('click', (e) => {
+        const card = e.target.closest('.nav-card');
+        if (card) {
+            const targetPage = card.dataset.target;
+            const game = card.dataset.game; // This will be undefined for music/news, which is fine
+            switchPage(targetPage === 'characters' ? 'characters-page' : `${targetPage}-page`, game);
+        }
+    });
 
     window.addEventListener('wheel', (e) => {
         if (!document.getElementById('characters-page').classList.contains('active') || isScrolling) return;

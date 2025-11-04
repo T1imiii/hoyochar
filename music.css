@@ -6,7 +6,7 @@
     --music-glow-color: rgba(168, 85, 247, 0.6);
     --music-border-color: rgba(168, 85, 247, 0.5);
     padding: 0;
-    background: var(--background-gradient-dark);
+    background: #200d30;
 }
 
 
@@ -315,15 +315,16 @@
 }
 
 .album-modal-content {
-    background: var(--background-gradient-dark);
-    padding: 2rem;
+    background: linear-gradient(160deg, rgba(30, 20, 44, 0.8), rgba(28, 20, 44, 1));
+    padding: 2rem 2.5rem; /* Increased padding */
     border-radius: 15px;
     width: 90%;
-    max-width: 600px;
-    max-height: 80vh;
+    max-width: 800px; /* Increased width */
+    max-height: 85vh;
     overflow-y: auto;
     position: relative;
     border: 1px solid var(--music-border-color);
+    box-shadow: 0 10px 50px rgba(0,0,0,0.5);
 }
 
 .close-album-modal {
@@ -336,48 +337,74 @@
     font-size: 2rem;
     cursor: pointer;
     line-height: 1;
+    opacity: 0.7;
+    transition: opacity 0.3s;
 }
+
+.close-album-modal:hover { opacity: 1; }
 
 .album-modal-header {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem; /* Increased gap */
     margin-bottom: 2rem;
     align-items: center;
 }
 
 .album-modal-header img {
-    width: 150px;
-    height: 150px;
+    width: 180px; /* Increased size */
+    height: 180px; /* Increased size */
     border-radius: 10px;
+    flex-shrink: 0;
 }
 
 .album-modal-info h1 {
-    font-size: 2rem;
+    font-size: 2.5rem; /* Increased font size */
     margin: 0;
+    font-family: 'Nexa', sans-serif;
 }
 .album-modal-info p {
     color: var(--text-secondary-color);
-    margin: 0.5rem 0 1rem;
+    margin: 0.5rem 0 1.5rem;
+    font-size: 1.1rem;
 }
 
-#music-page .play-album-btn {
-    background-color: var(--music-accent-color);
-    color: white;
-    border: none;
-    padding: 0.6rem 1.2rem;
-    border-radius: 20px;
+.album-modal .play-album-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    background: #8a2be9;
+    color: var(--music-accent-color);
+    border: 2px solid var(--music-accent-color);
+    padding: calc(0.8rem - 2px) calc(1.8rem - 2px);
+    border-radius: 50px;
     font-weight: 700;
+    font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: none;
 }
 
-#music-page .play-album-btn:hover {
-    background-color: var(--music-accent-darker);
+.album-modal .play-album-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px var(--music-glow-color);
+    background: purple;
+    color: white;
+}
+
+.album-modal .play-album-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.album-modal-tracklist {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1rem;
 }
 
 .album-modal-tracklist .track-item {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0.75rem; /* Added padding to list items */
 }
 
 /* --- Custom Scrollbar Styles --- */

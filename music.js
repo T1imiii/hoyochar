@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updatePlayerUI(track) {
         if (!track) return;
-        trackImgPlayer.src = track.cover;
+        trackImgPlayer.src = track.image;
         trackTitlePlayer.textContent = track.title;
         trackArtistPlayer.textContent = track.artist;
     }
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const album = musicData.albums.find(a => a.id === trackData.albumId);
                 if (!album || !album.tracks[trackData.trackIndex]) return null;
                 const track = album.tracks[trackData.trackIndex];
-                return { ...track, albumTitle: album.title, cover: album.cover, artist: album.artist, albumId: album.id };
+                return { artist: album.artist, image: album.cover, ...track, albumTitle: album.title, albumId: album.id };
             }).filter(Boolean);
     }
 
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (playlistName === 'popular') return getPopularTracks();
         const album = musicData.albums.find(a => a.id === playlistName);
         if (!album) return [];
-        return album.tracks.map(track => ({ ...track, cover: album.cover, artist: album.artist, albumTitle: album.title, albumId: album.id }));
+        return album.tracks.map(track => ({ artist: album.artist, image: album.cover, ...track, albumTitle: album.title, albumId: album.id }));
     }
 
     // --- HTML TEMPLATES ---
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="track-item" data-track-index="${index}" data-playlist="${playlistId}">
                 <div class="track-item-left">
                     <span class="track-number">${index + 1}</span>
-                    <img src="${track.cover}" alt="${track.title}" class="track-img">
+                    <img src="${track.image}" alt="${track.title}" class="track-img">
                     <div class="track-info">
                         <div class="track-title">${track.title}</div>
                         <div class="track-artist">${track.artist}</div>
@@ -232,11 +232,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="album-modal-info">
                         <h1>${album.title}</h1>
                         <p>${album.artist} &bull; ${album.year}</p>
-                        <button class="play-album-btn" data-album-id="${album.id}">Play Album</button>
+                        <button class="play-album-btn" data-album-id="${album.id}">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                            Play Album
+                        </button>
                     </div>
                 </div>
                 <div class="album-modal-tracklist">
-                    ${album.tracks.map((track, index) => createTrackItemHTML(track, index, album.id)).join('')}
+                    ${album.tracks.map((track, index) => createTrackItemHTML({ artist: album.artist, image: album.cover, ...track }, index, album.id)).join('')}
                 </div>
             </div>
         `;

@@ -49,9 +49,30 @@
             <section id="home-page" class="page active">
                 <div class="home-background"></div>
                 <div class="home-content">
-                    <h1>Исследуй миры Hoyoverse</h1>
-                    <p>Погрузитесь в захватывающие вселенные от Hoyoverse. Откройте для себя разнообразных персонажей, каждый со своей уникальной историей и способностями. Наш сайт поможет вам познакомиться с героями этих невероятных игр.</p>
-                    <button id="start-browsing-btn">Начать просмотр</button>
+                    <img src="images/hoyochar_logo.png" alt="Hoyoverse Logo" class="home-main-logo">
+                    <div class="home-nav-cards">
+                        <!-- Card 1: Characters -->
+                        <div class="nav-card" data-target="characters" data-game="characters">
+                            <div class="nav-card-img-container"><img src="images/genshin_logo.png" alt="Characters" class="nav-card-img"></div>
+                            <h3>Characters</h3>
+                            <p>Discover unique heroes from Genshin Impact, Honkai Star Rail, and Zenless Zone Zero.</p>
+                            <button class="nav-card-btn">View</button>
+                        </div>
+                        <!-- Card 2: Music -->
+                        <div class="nav-card" data-target="music">
+                             <div class="nav-card-img-container"><img src="images/honkai_star_rail_logo.png" alt="Music" class="nav-card-img"></div>
+                             <h3>Music</h3>
+                            <p>Immerse yourself in the game's atmosphere with official soundtracks and playlists.</p>
+                            <button class="nav-card-btn">To listen</button>
+                        </div>
+                        <!-- Card 3: News -->
+                        <div class="nav-card" data-target="news">
+                             <div class="nav-card-img-container"><img src="images/zenless_zone_zero_logo.png" alt="News" class="nav-card-img"></div>
+                            <h3>News</h3>
+                            <p>Follow the latest news and updates from the Hoyoverse world.</p>
+                            <button class="nav-card-btn">Read</button>
+                        </div>
+                    </div>
                 </div>
             </section>
 

@@ -24,7 +24,8 @@ This application is a multi-page website dedicated to the Hoyoverse games, featu
 *   **Responsive Design:** The layout is designed to be functional across different screen sizes.
 
 ### Home Page
-*   A visually appealing landing page with a background image and a call-to-action to start exploring the character sections.
+*   **Redesigned Layout:** A visually appealing landing page with a large central logo and three interactive navigation cards.
+*   **Navigation Cards:** Each card represents a main section of the site (Characters, Music, News), featuring a relevant image, a short description, and a button to navigate to the section.
 
 ### Character Pages
 *   **Game Selection:** Users can choose to view characters from Genshin Impact, Honkai Star Rail, or Zenless Zone Zero via a dropdown menu.
@@ -58,19 +59,23 @@ This application is a multi-page website dedicated to the Hoyoverse games, featu
 
 ## Previous Plan (Completed)
 
-1.  **Separate JS Logic:** Create a new `music.js` file to house all JavaScript functionality for the music page.
-2.  **Refactor `main.js`:** Remove all music-related code from `main.js` and adjust the `switchPage` function to call the initialization function from `music.js`.
-3.  **Update `index.html`:**
+1.  **Redesign Home Page:**
+    *   **Update `index.html`:** Replaced the old home page content with a new structure including a large logo and three navigation cards.
+    *   **Update `style.css`:** Added new styles for the redesigned home page elements, ensuring a modern and visually appealing layout. Removed old, unused styles.
+    *   **Update `main.js`:** Replaced the old button's event listener with a new, more flexible listener for the navigation cards to handle navigation to different sections.
+2.  **Separate JS Logic:** Create a new `music.js` file to house all JavaScript functionality for the music page.
+3.  **Refactor `main.js`:** Remove all music-related code from `main.js` and adjust the `switchPage` function to call the initialization function from `music.js`.
+4.  **Update `index.html`:**
     *   Refactor the HTML structure for the music page (`#music-page`) to a two-column layout (left panel for lists, right panel for the player).
     *   Include the new `music.js` script.
-4.  **Implement Music Logic in `music.js`:**
+5.  **Implement Music Logic in `music.js`:**
     *   Fetch music data from `music.json`.
     *   Populate the "Popular Tracks" and "Albums" sections.
     *   Implement full player controls (play, pause, next, previous).
     *   Implement a draggable progress bar and volume control.
     *   Create a modal view for displaying album tracklists.
     *   Handle playlist management (switching between popular list and album lists).
-5.  **Update `music.css`:** Rewrite the CSS to style the new two-column layout, the player, the lists, and the album modal, ensuring a polished and modern look.
+6.  **Update `music.css`:** Rewrite the CSS to style the new two-column layout, the player, the lists, and the album modal, ensuring a polished and modern look.
 
 ## Current Plan
 
