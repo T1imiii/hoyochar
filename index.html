@@ -53,21 +53,21 @@
                     <div class="home-nav-cards">
                         <!-- Card 1: Characters -->
                         <div class="nav-card" data-target="characters" data-game="characters">
-                            <div class="nav-card-img-container"><img src="images/genshin_logo.png" alt="Characters" class="nav-card-img"></div>
+                            <div class="nav-card-img-container"><img src="images/chars.png" alt="Characters" class="nav-card-img"></div>
                             <h3>Characters</h3>
                             <p>Discover unique heroes from Genshin Impact, Honkai Star Rail, and Zenless Zone Zero.</p>
                             <button class="nav-card-btn">View</button>
                         </div>
                         <!-- Card 2: Music -->
                         <div class="nav-card" data-target="music">
-                             <div class="nav-card-img-container"><img src="images/honkai_star_rail_logo.png" alt="Music" class="nav-card-img"></div>
+                             <div class="nav-card-img-container"><img src="images/music.png" alt="Music" class="nav-card-img"></div>
                              <h3>Music</h3>
                             <p>Immerse yourself in the game's atmosphere with official soundtracks and playlists.</p>
                             <button class="nav-card-btn">To listen</button>
                         </div>
                         <!-- Card 3: News -->
                         <div class="nav-card" data-target="news">
-                             <div class="nav-card-img-container"><img src="images/zenless_zone_zero_logo.png" alt="News" class="nav-card-img"></div>
+                             <div class="nav-card-img-container"><img src="images/news.png" alt="News" class="nav-card-img"></div>
                             <h3>News</h3>
                             <p>Follow the latest news and updates from the Hoyoverse world.</p>
                             <button class="nav-card-btn">Read</button>
@@ -93,10 +93,13 @@
                 <div class="music-content">
 
                     <div class="music-left-panel">
-                        <h2>Popular Tracks</h2>
-                        <div class="track-list"></div>
-                        <h2 class="albums-title">Albums</h2>
-                        <div class="album-list"></div>
+                        <canvas id="background-visualizer"></canvas>
+                        <div class="panel-content">
+                            <h2>Popular Tracks</h2>
+                            <div class="track-list"></div>
+                            <h2 class="albums-title">Albums</h2>
+                            <div class="album-list"></div>
+                        </div>
                     </div>
 
                     <div class="music-right-panel">
@@ -117,9 +120,15 @@
                                     <span class="total-time">0:00</span>
                                 </div>
                                 <div class="buttons-container">
+                                    <button class="shuffle-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="16 17 21 17 21 22"></polyline><line x1="4" y1="14" x2="11" y2="21"></line></svg>
+                                    </button>
                                     <button class="prev-btn"><img src="images/previous.svg" alt="Previous"></button>
                                     <button class="play-btn"><img src="images/play.svg" alt="Play"></button>
                                     <button class="next-btn"><img src="images/next.svg" alt="Next"></button>
+                                    <button class="repeat-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+                                    </button>
                                 </div>
                             </div>
                             <div class="volume-controls">

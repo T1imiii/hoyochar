@@ -16,7 +16,7 @@
             "popularity": 98
         },
         {
-            "albumId": "album_starfire",
+            "albumId": "album_nameless_faces",
             "trackIndex": 0,
             "popularity": 90
         },
@@ -26,8 +26,8 @@
             "popularity": 88
         },
         {
-            "albumId": "album_celestia",
-            "trackIndex": 0,
+            "albumId": "album_white_night",
+            "trackIndex": 1,
             "popularity": 85
         }
     ],
@@ -149,6 +149,186 @@
                     "url": "music/HOYO-MiX - WHITE NIGHT (Instrumental).mp3",
                     "artist":"HOYO-MiX, Tsar",
                     "image":"music/music_images/WHITE NIGHT.jpg"
+                }
+            ]
+        },
+        {
+            "id": "album_nameless_faces",
+            "title": "Nameless Faces",
+            "artist": "HOYO-MiX",
+            "year": "2025",
+            "cover": "music/music_images/Nameless Faces.jpg",
+            "tracks": [
+                {
+                    "title": "Nameless Faces English Ver.",
+                    "duration": "2:26",
+                    "url": "music/HOYO-MiX - Nameless Faces (English Ver․).mp3",
+                    "artist":"HOYO-MiX, Lilas Ikuta, Tsar",
+                    "image":"music/music_images/Nameless Faces.jpg"
+                },
+                {
+                    "title": "Nameless Faces Chinese Ver.",
+                    "duration": "2:26",
+                    "url": "music/HOYO-MiX - Nameless Faces (Chinese Ver․).mp3",
+                    "artist":"HOYO-MiX, 谭晶, Tsar",
+                    "image":"music/music_images/Nameless Faces.jpg"
+                },
+                {
+                    "title": "Nameless Faces Instrumental",
+                    "duration": "2:26",
+                    "url": "music/HOYO-MiX - Nameless Faces (Instrumental).mp3",
+                    "artist":"HOYO-MiX, Tsar",
+                    "image":"music/music_images/Nameless Faces.jpg"
+                },
+                {
+                    "title": "Nameless Faces English Harmonic Accompaniment",
+                    "duration": "2:26",
+                    "url": "music/HOYO-MiX - Nameless Faces (English Harmonic Accompaniment).mp3",
+                    "artist":"HOYO-MiX, Tsar",
+                    "image":"music/music_images/Nameless Faces.jpg"
+                },
+                {
+                    "title": "Nameless Faces Chinese Harmonic Accompaniment",
+                    "duration": "2:26",
+                    "url": "music/HOYO-MiX - Nameless Faces (Chinese Harmonic Accompaniment).mp3",
+                    "artist":"HOYO-MiX, Tsar",
+                    "image":"music/music_images/Nameless Faces.jpg"
+                }
+            ]
+        },
+        {
+            "id": "album_almost",
+            "title": "Almost",
+            "artist": "Sān-Z, HOYO-MiX",
+            "year": "2025",
+            "cover": "music/music_images/Almost.jpg",
+            "tracks": [
+                {
+                    "title": "Almost",
+                    "duration": "4:50",
+                    "url": "music/Sān-Z - Almost.mp3",
+                    "artist":"Sān-Z, HOYO-MiX, 苏诗丁",
+                    "image":"music/music_images/Almost.jpg"
+                },
+                {
+                    "title": "Almost Instrumental",
+                    "duration": "4:50",
+                    "url": "music/Sān-Z - Almost (Instrumental).mp3",
+                    "artist":"Sān-Z, HOYO-MiX",
+                    "image":"music/music_images/Almost.jpg"
+                }
+            ]
+        },
+        {
+            "id": "album_bite",
+            "title": "BITE!",
+            "artist": "Sān-Z, HOYO-MiX",
+            "year": "2024",
+            "cover": "music/music_images/BITE.jpg",
+            "tracks": [
+                {
+                    "title": "BITE!",
+                    "duration": "3:43",
+                    "url": "music/Sān-Z - BITE!.mp3",
+                    "artist":"Sān-Z, HOYO-MiX",
+                    "image":"music/music_images/BITE.jpg"
+                },
+                {
+                    "title": "BITE! - Instrumental",
+                    "duration": "3:43",
+                    "url": "music/Sān-Z - BITE! - Instrumental.mp3",
+                    "artist":"Sān-Z, HOYO-MiX",
+                    "image":"music/music_images/BITE.jpg"
+                }
+            ]
+        },
+        {
+            "id": "album_blazing_heart",
+            "title": "Genshin Impact - Blazing Heart",
+            "artist": "HOYO-MiX",
+            "year": "2025",
+            "cover": "music/music_images/Blazing Heart.jpg",
+            "tracks": [
+                {
+                    "title": "Blazing Heart Chinese Version",
+                    "duration": "2:58",
+                    "url": "music/HOYO-MiX - Blazing Heart (Chinese Version).mp3",
+                    "artist":"HOYO-MiX, TIA RAY",
+                    "image":"music/music_images/Blazing Heart.jpg"
+                },
+                {
+                    "title": "Blazing Heart English Version",
+                    "duration": "2:58",
+                    "url": "music/HOYO-MiX - Blazing Heart (English Version).mp3",
+                    "artist":"HOYO-MiX, Chrissy Costanza",
+                    "image":"music/music_images/Blazing Heart.jpg"
+                },
+                {
+                    "title": "Blazing Heart Japanese Version",
+                    "duration": "2:58",
+                    "url": "music/HOYO-MiX - Blazing Heart (Japanese Version).mp3",
+                    "artist":"HOYO-MiX, Mikako Komatsu",
+                    "image":"music/music_images/Blazing Heart.jpg"
+                },
+                {
+                    "title": "Blazing Heart Korean Version",
+                    "duration": "2:58",
+                    "url": "music/HOYO-MiX - Blazing Heart (Korean Version).mp3",
+                    "artist":"HOYO-MiX, MIYEON",
+                    "image":"music/music_images/Blazing Heart.jpg"
+                },
+                {
+                    "title": "Blazing Heart Instrumental",
+                    "duration": "2:58",
+                    "url": "music/HOYO-MiX - Blazing Heart (Instrumental).mp3",
+                    "artist":"HOYO-MiX",
+                    "image":"music/music_images/Blazing Heart.jpg"
+                }
+            ]
+        },
+        {
+            "id": "album_my_curse",
+            "title": "My Curse, My Fate",
+            "artist": "Sān-Z, HOYO-MiX",
+            "year": "2025",
+            "cover": "music/music_images/My Curse, My Fate.jpg",
+            "tracks": [
+                {
+                    "title": "My Curse, My Fate",
+                    "duration": "4:09",
+                    "url": "music/Sān-Z - My Curse, My Fate.mp3",
+                    "artist":"Sān-Z, HOYO-MiX",
+                    "image":"music/music_images/My Curse, My Fate.jpg"
+                },
+                {
+                    "title": "My Curse, My Fate Instrumental",
+                    "duration": "4:09",
+                    "url": "music/Sān-Z - My Curse, My Fate (Instrumental).mp3",
+                    "artist":"Sān-Z, HOYO-MiX",
+                    "image":"music/music_images/My Curse, My Fate.jpg"
+                }
+            ]
+        },
+        {
+            "id": "album_damidami",
+            "title": "DAMIDAMI",
+            "artist": "Sihan, Sān-Z, HOYO-MiX",
+            "year": "2025",
+            "cover": "music/music_images/DAMIDAMI.jpg",
+            "tracks": [
+                {
+                    "title": "DAMIDAMI",
+                    "duration": "3:11",
+                    "url": "music/Sihan - DAMIDAMI.mp3",
+                    "artist":"Sihan, Sān-Z, HOYO-MiX",
+                    "image":"music/music_images/DAMIDAMI.jpg"
+                },
+                {
+                    "title": "DAMIDAMI Instrumental",
+                    "duration": "3:11",
+                    "url": "music/Sihan - DAMIDAMI (Instrumental).mp3",
+                    "artist":"Sihan, Sān-Z, HOYO-MiX",
+                    "image":"music/music_images/DAMIDAMI.jpg"
                 }
             ]
         }
