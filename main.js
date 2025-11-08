@@ -385,11 +385,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     homePage.addEventListener('click', (e) => {
-        const card = e.target.closest('.nav-card');
-        if (card) {
-            const targetPage = card.dataset.target;
-            const game = card.dataset.game; // This will be undefined for music/news, which is fine
-            switchPage(targetPage === 'characters' ? 'characters-page' : `${targetPage}-page`, game);
+        const button = e.target.closest('.nav-card-btn');
+        if (button) {
+            const card = button.closest('.nav-card');
+            if (card) {
+                const targetPage = card.dataset.target;
+                const game = card.dataset.game; // This will be undefined for music/news, which is fine
+                switchPage(targetPage === 'characters' ? 'characters-page' : `${targetPage}-page`, game);
+            }
         }
     });
 

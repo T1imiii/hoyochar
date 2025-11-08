@@ -201,7 +201,7 @@ header {
     transition: fill 0.3s;
 }
 .social-icons a:hover svg {
-    fill: var(--accent-color);
+    fill: #bf7bf1;
 }
 
 .scroll-indicator .mouse {
@@ -226,7 +226,7 @@ header {
 /* --- PAGE 1: HOME --- */
 #home-page {
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     overflow-y: auto;
 }
 
@@ -242,20 +242,20 @@ header {
 
 #home-page .home-content {
     text-align: center;
-    padding: 2rem;
+    padding: 3.5rem 1rem 1rem;
     max-width: 1200px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .home-main-logo {
     max-width: 500px;
     width: 50%;
     height: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .home-nav-cards {
@@ -318,7 +318,7 @@ header {
     font-size: 1rem;
     font-weight: bold;
     color: #fff;
-    background-color: #a788e2;
+    background-color: #681cad;
     border: none;
     padding: 0.8rem 2rem;
     border-radius: 50px;
@@ -622,7 +622,7 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Keep the parallax/fixed effect */
-    filter: brightness(0.2);
+    filter: brightness(0.3);
     z-index: -1;
 }
 
@@ -841,3 +841,32 @@ header {
     cursor: pointer;
     line-height: 1;
 }
+
+/* --- Custom Global Scrollbar Styles --- */
+#news-page::-webkit-scrollbar,
+.panel-content::-webkit-scrollbar,
+.album-modal-content::-webkit-scrollbar {
+  width: 12px;
+}
+
+#news-page::-webkit-scrollbar-track,
+.panel-content::-webkit-scrollbar-track,
+.album-modal-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#news-page::-webkit-scrollbar-thumb,
+.panel-content::-webkit-scrollbar-thumb,
+.album-modal-content::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  border: 3px solid var(--panel-bg-color);
+}
+
+#news-page::-webkit-scrollbar-thumb:hover,
+.panel-content::-webkit-scrollbar-thumb:hover,
+.album-modal-content::-webkit-scrollbar-thumb:hover {
+  background-color: var(--accent-color);
+}
+
+
