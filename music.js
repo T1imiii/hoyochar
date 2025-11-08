@@ -153,20 +153,20 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!visualizerInitialized) setupVisualizer();
         
         const newPlaylist = setupPlaylist(playlistId);
-        if (currentPlaylistName !== playlistId || isShuffle) {
+        if (currentPlaylistName !== playlistId) {
             currentPlaylistName = playlistId;
             currentPlaylist = newPlaylist;
             originalPlaylistForShuffle = [...newPlaylist];
+             if (isShuffle) {
+                const currentTrack = currentPlaylist[trackIndex];
+                currentPlaylist = currentPlaylist.filter(t => t.url !== currentTrack.url);
+                currentPlaylist.sort(() => Math.random() - 0.5);
+                currentPlaylist.unshift(currentTrack);
+                trackIndex = 0;
+            }
         }
 
         if (trackIndex < 0 || trackIndex >= currentPlaylist.length) return;
-        
-        if (isShuffle) {
-            const selectedTrack = currentPlaylist.splice(trackIndex, 1)[0];
-            currentPlaylist.sort(() => Math.random() - 0.5);
-            currentPlaylist.unshift(selectedTrack);
-            trackIndex = 0;
-        }
         
         currentTrackIndex = trackIndex;
         const track = currentPlaylist[trackIndex];
@@ -280,12 +280,34 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function playNext() {
-        const nextIndex = (currentTrackIndex + 1) % currentPlaylist.length;
+        let nextIndex;
+        if (isShuffle) {
+            if (currentPlaylist.length < 2) {
+                nextIndex = 0;
+            } else {
+                do {
+                    nextIndex = Math.floor(Math.random() * currentPlaylist.length);
+                } while (nextIndex === currentTrackIndex);
+            }
+        } else {
+            nextIndex = (currentTrackIndex + 1) % currentPlaylist.length;
+        }
         playTrack(nextIndex, currentPlaylistName);
     }
 
     function playPrev() {
-        const prevIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
+        let prevIndex;
+        if (isShuffle) {
+            if (currentPlaylist.length < 2) {
+                prevIndex = 0;
+            } else {
+                do {
+                    prevIndex = Math.floor(Math.random() * currentPlaylist.length);
+                } while (prevIndex === currentTrackIndex);
+            }
+        } else {
+            prevIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
+        }
         playTrack(prevIndex, currentPlaylistName);
     }
 
@@ -300,16 +322,20 @@ document.addEventListener('DOMContentLoaded', () => {
         shuffleBtn.classList.toggle('active', isShuffle);
         if (isShuffle) {
             const currentTrack = currentPlaylist[currentTrackIndex];
+            // Filter out the current track, shuffle the rest and add the current track to the beginning
             currentPlaylist = currentPlaylist.filter(t => t.url !== currentTrack.url);
             currentPlaylist.sort(() => Math.random() - 0.5);
             currentPlaylist.unshift(currentTrack);
             currentTrackIndex = 0;
         } else {
-            const currentTrack = currentPlaylist[currentTrackIndex];
+            // Restore the original playlist order
+            const currentTrackUrl = currentPlaylist[currentTrackIndex].url;
             currentPlaylist = [...originalPlaylistForShuffle];
-            currentTrackIndex = currentPlaylist.findIndex(t => t.url === currentTrack.url);
+            currentTrackIndex = currentPlaylist.findIndex(t => t.url === currentTrackUrl);
+             if (currentTrackIndex === -1) currentTrackIndex = 0;
         }
     }
+
 
     // --- UTILITY FUNCTIONS ---
     function formatTime(seconds) {

@@ -53,7 +53,7 @@
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.1);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     height: 100%;
     border-left: 1px solid var(--border-color);
@@ -326,6 +326,11 @@
 .buttons-container .play-btn img {
     width: 40px;
     height: 40px;
+    filter: invert(1);
+}
+
+.buttons-container .prev-btn img,
+.buttons-container .next-btn img {
     filter: invert(1);
 }
 
